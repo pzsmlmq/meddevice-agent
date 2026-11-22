@@ -1,0 +1,123 @@
+{
+  "version": "1.0.0",
+  "concepts": [
+    {
+      "id": "SUB:01有源手术器械",
+      "ctype": "SubCatalog",
+      "name": "01有源手术器械",
+      "aliases": [],
+      "props": {},
+      "version": "1.0.0",
+      "source_clause": "2017年第104号公告",
+      "confidence": 1.0,
+      "created_by": "rule",
+      "status": "active"
+    },
+    {
+      "id": "L1:手术器械-夹",
+      "ctype": "CategoryL1",
+      "name": "手术器械-夹",
+      "aliases": [],
+      "props": {},
+      "version": "1.0.0",
+      "source_clause": "2017年第104号公告",
+      "confidence": 1.0,
+      "created_by": "rule",
+      "status": "active"
+    },
+    {
+      "id": "L2:内窥镜用手术器械",
+      "ctype": "CategoryL2",
+      "name": "内窥镜用手术器械",
+      "aliases": ["内镜器械"],
+      "props": {
+        "用途领域": "手术",
+        "有无源": "有源",
+        "是否侵入": true
+      },
+      "version": "1.0.0",
+      "source_clause": "2017年第104号公告-06-01",
+      "confidence": 1.0,
+      "created_by": "rule",
+      "status": "active"
+    },
+    {
+      "id": "CL:Ⅱ",
+      "ctype": "ClassLevel",
+      "name": "第二类医疗器械",
+      "aliases": ["Ⅱ类", "二类"],
+      "props": {
+        "审批层级": "省级药品监督管理部门",
+        "办理形式": "注册"
+      },
+      "version": "1.0.0",
+      "source_clause": "《医疗器械监督管理条例》",
+      "confidence": 1.0,
+      "created_by": "rule",
+      "status": "active"
+    },
+    {
+      "id": "RP:省级注册",
+      "ctype": "RegPath",
+      "name": "省级注册",
+      "aliases": [],
+      "props": {
+        "受理机关": "省级药监"
+      },
+      "version": "1.0.0",
+      "source_clause": "class_rules[1]",
+      "confidence": 1.0,
+      "created_by": "rule",
+      "status": "active"
+    },
+    {
+      "id": "CE:需临床评价",
+      "ctype": "ClinicalEval",
+      "name": "需临床评价",
+      "aliases": [],
+      "props": {},
+      "version": "1.0.0",
+      "source_clause": "免于临床评价医疗器械目录（查无此项）",
+      "confidence": 0.9,
+      "created_by": "rule",
+      "status": "active"
+    },
+    {
+      "id": "DOC:2017年第104号公告",
+      "ctype": "RegulationDoc",
+      "name": "2017年第104号公告",
+      "aliases": ["医疗器械分类目录公告"],
+      "props": {
+        "发布机构": "原国家食品药品监督管理总局"
+      },
+      "version": "1.0.0",
+      "source_clause": null,
+      "confidence": 1.0,
+      "created_by": "rule",
+      "status": "active"
+    },
+    {
+      "id": "CLS:2017-104-06-01",
+      "ctype": "Clause",
+      "name": "06-01 内窥镜用手术器械",
+      "aliases": [],
+      "props": {
+        "原文": "由钳头、套管和手柄组成，用于内窥镜手术中夹持和牵拉组织。"
+      },
+      "version": "1.0.0",
+      "source_clause": "DOC:2017年第104号公告",
+      "confidence": 1.0,
+      "created_by": "rule",
+      "status": "active"
+    }
+  ],
+  "relations": [
+    { "src": "L2:内窥镜用手术器械", "rel": "belongs_to", "dst": "L1:手术器械-夹", "confidence": 1.0, "source_clause": "CLS:2017-104-06-01", "created_by": "rule" },
+    { "src": "L1:手术器械-夹", "rel": "belongs_to", "dst": "SUB:01有源手术器械", "confidence": 1.0, "source_clause": "CLS:2017-104-06-01", "created_by": "rule" },
+    { "src": "L2:内窥镜用手术器械", "rel": "has_class", "dst": "CL:Ⅱ", "confidence": 1.0, "source_clause": "CLS:2017-104-06-01", "created_by": "rule" },
+    { "src": "CL:Ⅱ", "rel": "determines", "dst": "RP:省级注册", "confidence": 1.0, "source_clause": "class_rules[1]", "created_by": "rule" },
+    { "src": "RP:省级注册", "rel": "requires", "dst": "CE:需临床评价", "confidence": 0.9, "source_clause": "免于临床评价医疗器械目录（查无此项）", "created_by": "rule" },
+    { "src": "L2:内窥镜用手术器械", "rel": "based_on", "dst": "CLS:2017-104-06-01", "confidence": 1.0, "source_clause": "CLS:2017-104-06-01", "created_by": "rule" },
+    { "src": "CLS:2017-104-06-01", "rel": "cited_in", "dst": "DOC:2017年第104号公告", "confidence": 1.0, "source_clause": "DOC:2017年第104号公告", "created_by": "rule" }
+  ]
+}

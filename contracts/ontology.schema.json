@@ -1,0 +1,146 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://nexent.local/contracts/ontology.schema.json",
+  "title": "本体 · 概念与关系",
+  "description": "知识图谱的节点与边。concept 存节点，relation 存边。所有节点和边都必须带 confidence 与 source_clause，因为证据链完全靠这两个字段生成，事后补等于重做。",
+
+  "$defs": {
+    "concept": {
+      "title": "概念（节点）",
+      "type": "object",
+      "required": ["id", "ctype", "name", "version", "created_by"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9]+:.+$",
+          "description": "节点标识，格式「类型:名称」，冒号前是类型代号。例如 L2:超声诊断设备、CL:Ⅱ、RP:省级注册。这样写是为了让 id 自带类型信息，查的时候不用再关联表。"
+        },
+        "ctype": {
+          "type": "string",
+          "enum": [
+            "SubCatalog",
+            "CategoryL1",
+            "CategoryL2",
+            "ProductExample",
+            "ClassLevel",
+            "RegPath",
+            "ClinicalEval",
+            "RegulationDoc",
+            "Clause"
+          ],
+          "description": "概念类型。SubCatalog=子目录、CategoryL1=一级类别、CategoryL2=二级类别、ProductExample=产品实例、ClassLevel=管理类别、RegPath=注册路径、ClinicalEval=临床评价要求、RegulationDoc=法规文件、Clause=条款。"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "概念名称，给人看的。CategoryL2 用官方目录里的原名，不要自己改。"
+        },
+        "aliases": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "别名与同义词。用于检索时召回，例如「B超」→「超声诊断设备」。LLM 抽取时产生的疑似同义项也放这里，人工确认后再合并。",
+          "default": []
+        },
+        "props": {
+          "type": "object",
+          "description": "扩展属性，键值对。不同 ctype 放的字段不一样：CategoryL2 放「用途领域/有无源/是否侵入」；ClassLevel 放「审批层级/办理形式」；RegPath 放「办理时限/受理机关」。不限制具体键名，但要记在 README 里。",
+          "default": {}
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+          "description": "该概念所属的本体版本号，语义化版本。新增概念升次版本号，修改已有概念的含义升主版本号。版本号是「可进化」能被对比的前提，必须写。"
+        },
+        "source_clause": {
+          "type": ["string", "null"],
+          "description": "这个概念的依据出处，指向 Clause 节点或法规条款号。规则生成的概念填原文的法规链接，LLM 抽取的填模型给出的依据，人工新增的填人工标注的来源。"
+        },
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "概念可信度。层级关系等规则生成=1.0；LLM 抽取按采样一致率给；人工确认=1.0。主动学习按这个值挑最不确定的样本。"
+        },
+        "created_by": {
+          "type": "string",
+          "enum": ["rule", "llm", "human"],
+          "description": "概念来源。rule=规则生成、llm=模型抽取、human=人工新增或修正。答辩时这三类的比例是一个指标，说明本体是人建的还是机器建的。"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["active", "pending_review", "deprecated"],
+          "description": "概念状态。active=已确认可用；pending_review=等待人工审核，检索时默认不返回；deprecated=已废弃但保留，用于版本对比时展示「删掉了什么」。",
+          "default": "active"
+        }
+      }
+    },
+
+    "relation": {
+      "title": "关系（边）",
+      "type": "object",
+      "required": ["src", "rel", "dst", "confidence"],
+      "additionalProperties": false,
+      "properties": {
+        "src": {
+          "type": "string",
+          "description": "起点节点的 id，必须是已存在的 concept.id。"
+        },
+        "rel": {
+          "type": "string",
+          "enum": [
+            "belongs_to",
+            "has_class",
+            "determines",
+            "requires",
+            "based_on",
+            "cited_in",
+            "similar_to",
+            "instance_of"
+          ],
+          "description": "关系类型。belongs_to=属于上级分类；has_class=管理类别为；determines=决定注册路径；requires=要求做临床评价；based_on=依据某条款；cited_in=该条款出自某文件；similar_to=与某类别相似（类比推理用）；instance_of=产品实例属于某类别。"
+        },
+        "dst": {
+          "type": "string",
+          "description": "终点节点的 id，必须是已存在的 concept.id。"
+        },
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "关系可信度。层级关系=1.0；LLM 推断的相似关系通常低于 0.7。低于 0.5 的关系不参与多跳推理，避免推理链出错。"
+        },
+        "source_clause": {
+          "type": ["string", "null"],
+          "description": "这条关系的依据出处。多跳推理的每一跳都要能指回这里，否则这一跳不允许出现在证据链里。"
+        },
+        "created_by": {
+          "type": "string",
+          "enum": ["rule", "llm", "human"],
+          "description": "关系来源，含义同 concept.created_by。"
+        }
+      }
+    }
+  },
+
+  "type": "object",
+  "required": ["version", "concepts", "relations"],
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+      "description": "整份本体的版本号。每轮主动学习或人工审核后升次版本号，发布到 Nexent 时用这个号做版本对比。"
+    },
+    "concepts": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/concept" },
+      "description": "全部概念节点。"
+    },
+    "relations": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/relation" },
+      "description": "全部关系边。写入前必须校验：src 和 dst 都能在 concepts 里找到，否则是悬挂边，直接拒收。"
+    }
+  }
+}

@@ -1,0 +1,5947 @@
+{
+ "rows": [
+  {
+   "case_id": "auto-000",
+   "question": "我们做的是脊柱手术时连接钻头和动力手柄、帮钻头钻削并追踪定位的中空不锈钢管子。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 4057
+  },
+  {
+   "case_id": "auto-001",
+   "question": "我们做的是钛合金的眼科器械，用来定位或调节眼组织，非无菌提供。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 3303
+  },
+  {
+   "case_id": "auto-002",
+   "question": "我们做的是手术中用来导引器械进入的带钩工具，不碰神经和血液。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅰ",
+    "Ⅱ"
+   ],
+   "issue": "条目[6]将用于钩拉组织、显露手术视野的手术钩归为Ⅱ类，而本产品同样是带钩的手术导引工具且不接触神经和血液，若按其“钩拉",
+   "ask": "该工具是否用于钩拉组织以显露手术视野？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 6733
+  },
+  {
+   "case_id": "auto-003",
+   "question": "我们做的是用弹性带和扣盒等组成的止血带，用于输液抽血时短暂阻断静脉回流。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 1522
+  },
+  {
+   "case_id": "auto-004",
+   "question": "我们做的是帮行动不便的人辅助行走或站立做康复训练的无源器械。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2489
+  },
+  {
+   "case_id": "auto-005",
+   "question": "我们做的是骨科手术里用来扩孔、铰孔和扩大髓腔的不锈钢刀头，非无菌提供。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅰ",
+    "Ⅱ"
+   ],
+   "issue": "条目[5]中“钻孔用钻”用于骨组织开孔，管理类别为Ⅱ类，而本产品描述同样涉及骨科扩孔/铰孔用途，二者在“扩孔”与“开孔”",
+   "ask": "刀头是手动还是与动力设备配合使用？",
+   "pred2": "Ⅰ",
+   "final": "Ⅰ",
+   "ms": 7053
+  },
+  {
+   "case_id": "auto-006",
+   "question": "我们做的是涂在完好皮肤上配合光子治疗设备使用、起隔热和导光作用的产品。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 2786
+  },
+  {
+   "case_id": "auto-007",
+   "question": "我们做的是吸氧时把氧气直接送给患者、同时帮助吸收二氧化碳等酸性气体的东西。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 1553
+  },
+  {
+   "case_id": "auto-008",
+   "question": "我们做的是套在骨锯上、牙科治疗时保护牙槽周边组织不被误伤的扇形一次性护套。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 1934
+  },
+  {
+   "case_id": "auto-009",
+   "question": "我们做的是把胶片放在亮屏上看的设备，用来观察医用诊断胶片。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 1949
+  },
+  {
+   "case_id": "auto-010",
+   "question": "我们做的是不锈钢接头，一头接器械一头带柄，非无菌，就是用来连接器械的。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅰ",
+    "Ⅱ"
+   ],
+   "issue": "条目[3]“无菌转接头”作为骨科手术配套工具管理类别为Ⅱ，而本产品同为不锈钢接头、用于连接器械，仅因非无菌提供即判为Ⅰ类",
+   "ask": "这个接头是否预期接触人体或进入无菌区域？",
+   "pred2": "Ⅰ",
+   "final": "Ⅰ",
+   "ms": 5238
+  },
+  {
+   "case_id": "auto-011",
+   "question": "我们做的是给术中冰冻组织、细胞、体液和血液染色用的，染色前处理这块归不归你们管？",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 2423
+  },
+  {
+   "case_id": "auto-012",
+   "question": "我们做的是带钩和手柄的器械，矫形手术时用来提拉骨骼。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 1662
+  },
+  {
+   "case_id": "auto-013",
+   "question": "我们做的是涂在牙科材料或模具之间起隔离作用的，用来分开不同的牙科材料。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 2455
+  },
+  {
+   "case_id": "auto-014",
+   "question": "我们做的是帮肺功能下降患者恢复呼吸的训练器械，靠吸气屏气呼气循环锻炼。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅰ",
+    "Ⅱ"
+   ],
+   "issue": "条目[2]将同类预期用途（肺功能下降后恢复）的呼吸训练仪按Ⅱ类管理，而产品描述侧重吸气屏气呼气循环训练，可能涉及需主动配",
+   "ask": "是否含主动阻力或正压通气功能？",
+   "pred2": "Ⅰ",
+   "final": "Ⅰ",
+   "ms": 4987
+  },
+  {
+   "case_id": "auto-015",
+   "question": "我们做的是用高分子材料制成的擦拭头带支撑杆，非无菌一次性，用于鼻腔黏膜和机械创伤涂抹消毒剂。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅰ",
+    "Ⅱ"
+   ],
+   "issue": "该产品由高分子材料制成、非无菌一次性使用，用于鼻腔黏膜和机械创伤涂抹消毒剂；条目[1]将类似预期用途的医用鼻腔消毒剂涂抹",
+   "ask": "擦拭头是否直接接触破损黏膜或创面？",
+   "pred2": "Ⅰ",
+   "final": "Ⅰ",
+   "ms": 4786
+  },
+  {
+   "case_id": "auto-016",
+   "question": "我们做的是输液抽血时绑胳膊和给皮肤抹消毒用的，一次性用，不碰血只碰好皮肤。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 2020
+  },
+  {
+   "case_id": "auto-017",
+   "question": "我们做的是配合气压治疗仪给腿套充气，用来防止静脉血栓、缓解水肿疼痛的。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅰ",
+    "Ⅱ"
+   ],
+   "issue": "条目[1]明确将仅配合气压治疗仪使用的腿套判为Ⅰ类，但条目[2]中功能相似的空气压力波治疗仪被判为Ⅱ类，二者描述高度接近",
+   "ask": "腿套是否含电动充气部件？",
+   "pred2": "Ⅰ",
+   "final": "Ⅰ",
+   "ms": 5163
+  },
+  {
+   "case_id": "auto-018",
+   "question": "我们做的是牙科种植时连接注射器往牙洞里注水、靠水压把上颌窦黏膜顶起来的硅胶管，能重复用。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 1782
+  },
+  {
+   "case_id": "auto-019",
+   "question": "我们做的是用聚酯片基加热敏层和保护层来记录CT、MRI等医学影像的产品，想咨询一下合规要求。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅰ",
+    "Ⅱ类"
+   ],
+   "issue": "条目[3]中“医用热敏胶片”虽列为Ⅰ类，但其结构描述（接收层、底层、背涂层和背印）与本品（聚酯片基+热敏层+保护层）不完",
+   "ask": "产品是否含银盐感光成分？",
+   "pred2": "Ⅰ",
+   "final": "Ⅰ",
+   "ms": 4506
+  },
+  {
+   "case_id": "auto-020",
+   "question": "我们做的是脊柱融合手术里接手柄、靠导航探方向和深度的不锈钢工具，能重复用。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅰ",
+    "Ⅱ类"
+   ],
+   "issue": "产品不含导航跟踪/参考架，仅作为手柄与导航工具间的连接件，与条目[2][3]的Ⅰ类“连接套管”结构用途相近，但条目[8]",
+   "ask": "该工具是否接触椎弓根或椎体内部？",
+   "pred2": "Ⅰ",
+   "final": "Ⅰ",
+   "ms": 4512
+  },
+  {
+   "case_id": "auto-021",
+   "question": "我们做的是用不锈钢制成、夹血管和组织来止血的钳子，非无菌提供。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅰ",
+    "Ⅱ"
+   ],
+   "issue": "该产品为不锈钢制、非无菌提供的止血钳，若按条目[3]“接触中枢神经系统或血液循环系统”的心血管外科用止血钳可归为Ⅱ类，但",
+   "ask": "是否专门用于心血管外科？",
+   "pred2": "Ⅰ",
+   "final": "Ⅰ",
+   "ms": 5436
+  },
+  {
+   "case_id": "auto-022",
+   "question": "我们做的是不锈钢或钛合金的眼科手术器械，用来咬切眼组织，非无菌提供。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 2444
+  },
+  {
+   "case_id": "auto-023",
+   "question": "我们做的是金属制、可重复使用的检查工具，用来给患者查听觉。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 1995
+  },
+  {
+   "case_id": "auto-024",
+   "question": "我们做的是口腔治疗时输送冲洗液去碎屑、同时冷却车针的可重复灭菌的一套管路。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 1875
+  },
+  {
+   "case_id": "auto-025",
+   "question": "我们做的是用高分子材料制成的阴道冲洗给药器，一次性使用，非无菌，用前加药液冲洗阴道。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅰ",
+    "Ⅱ"
+   ],
+   "issue": "该产品为阴道冲洗给药器，预期用途含阴道冲洗，条目[2]目录条目中“阴道洗涤器/给药器”管理类别为Ⅱ，与条目[6]按Ⅰ类管",
+   "ask": "是否含给药功能（还是仅冲洗）？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 4067
+  },
+  {
+   "case_id": "auto-026",
+   "question": "我们做的是帮患者在经颅多普勒发泡试验中完成瓦式动作的无源器械。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅰ",
+    "Ⅱ"
+   ],
+   "issue": "同类“辅助完成瓦式动作的呼吸训练器”在2022年界定为Ⅰ类，但该产品为无源器械且不属呼吸/麻醉/急救辅助装置目录条目，若",
+   "ask": "是否通过主动增加胸腔内压辅助完成瓦式动作？",
+   "pred2": "Ⅰ",
+   "final": "Ⅰ",
+   "ms": 4990
+  },
+  {
+   "case_id": "auto-027",
+   "question": "我们做的是采人体末梢血并存储的管子，里面不涂东西，也不无菌。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅰ",
+    "Ⅱ"
+   ],
+   "issue": "产品为管内壁不附着添加剂、非无菌提供的人体末梢血采集存储管，[1]明确将该类产品列为Ⅱ类，与你判定的Ⅰ类存在分歧。",
+   "ask": "该管是否用于检测特定疾病指标？",
+   "pred2": "Ⅰ",
+   "final": "Ⅰ",
+   "ms": 5220
+  },
+  {
+   "case_id": "auto-028",
+   "question": "我们做的这个是通过软管和鼻塞把氧气输给患者吸氧用的，想请教一下合规要求。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 2318
+  },
+  {
+   "case_id": "auto-029",
+   "question": "我们做的是口腔科取断根管锉用的，不锈钢套管加针芯，不灭菌。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅰ",
+    "Ⅱ"
+   ],
+   "issue": "同目录06牙科锉下另有机用类器械（连接手机由主机驱动）管理类别为Ⅱ，但本品为手动不锈钢套管加针芯、非无菌，更贴合条目[1",
+   "ask": "是否由牙科手机等主机驱动使用？",
+   "pred2": "Ⅰ",
+   "final": "Ⅰ",
+   "ms": 6724
+  },
+  {
+   "case_id": "auto-030",
+   "question": "我们做的是骨科手术时固定在手术床上帮患者摆体位、方便医生操作的金属和高分子器械。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅰ",
+    "Ⅱ类"
+   ],
+   "issue": "条目[3]中“电动手术位置固定架系统”因电动调节肢体体位按Ⅱ类管理，而本产品为金属和高分子器械，若含电动调节功能则可能归",
+   "ask": "产品是否含电动调节功能？",
+   "pred2": "Ⅰ",
+   "final": "Ⅰ",
+   "ms": 3864
+  },
+  {
+   "case_id": "auto-031",
+   "question": "我们做的是给医院检验样本做离心、分杯和冷藏处理的，用在化验前后的加工环节。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅰ",
+    "Ⅱ"
+   ],
+   "issue": "条目1的样本处理系统（离心、分杯、冷藏，检测前后处理）在2017目录中未明确管理类别，而条目2将同类全自动样品处理系统（",
+   "ask": "该系统是否包含检测试剂或检测功能？",
+   "pred2": "Ⅰ",
+   "final": "Ⅰ",
+   "ms": 5196
+  },
+  {
+   "case_id": "auto-032",
+   "question": "我们做的是装在种植导板后部导孔、经CT确认下颌神经位置的重复使用件，用前需灭菌。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 1635
+  },
+  {
+   "case_id": "auto-033",
+   "question": "我们做的是不锈钢的钳子，非无菌，用来扩张气管，想咨询下申报要求。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅰ",
+    "Ⅱ"
+   ],
+   "issue": "该产品为非无菌不锈钢气管扩张钳，按“扩张钳”目录条目可能归Ⅰ类，但按“扩张器”条目或组织扩张牵开器等分类界定结果，用于扩",
+   "ask": "使用时是否接触气管黏膜或进入气道内？",
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 5077
+  },
+  {
+   "case_id": "auto-034",
+   "question": "我们做的是手术时配合器械把植入物装好的辅助工具，非无菌提供。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅰ",
+    "Ⅱ"
+   ],
+   "issue": "条目[1]描述同为“与手术器械配合使用，用于辅助完成植入物安装”的骨科手术配套工具，但因“无菌提供”归为Ⅱ类；本产品为非",
+   "ask": "是否可重复使用？",
+   "pred2": "Ⅰ",
+   "final": "Ⅰ",
+   "ms": 5071
+  },
+  {
+   "case_id": "auto-035",
+   "question": "我们做的是手术时连接钻头和动力手柄、放追踪球帮医生定位钻头用的可重复灭菌器械。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 2173
+  },
+  {
+   "case_id": "auto-036",
+   "question": "我们做的是不锈钢的口腔治疗工具，用来去除牙齿上的金属冠，非无菌提供，想咨询下分类。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 2626
+  },
+  {
+   "case_id": "auto-037",
+   "question": "我们做的是接在肺功能仪上过滤吹气唾液和水蒸气、防交叉感染的东西。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅰ",
+    "Ⅱ类"
+   ],
+   "issue": "条目[6]将用于过滤微生物防交叉感染的呼吸气体过滤器列为Ⅱ类，而本产品同样涉及防交叉感染，仅按Ⅰ类界定可能存在分歧。",
+   "ask": "过滤器是否按医疗器械预期用途销售？",
+   "pred2": "Ⅰ",
+   "final": "Ⅰ",
+   "ms": 4530
+  },
+  {
+   "case_id": "auto-038",
+   "question": "我们做的是戴在医生手上检查病人用的，非无菌一次性使用。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅰ",
+    "Ⅱ"
+   ],
+   "issue": "产品为非无菌一次性检查手套，条目[1][8]以无菌/非无菌区分管理类别，但[2]将非无菌医用检查手套按Ⅱ类界定，[8]将",
+   "ask": "是否用于医疗检查且仅一次性使用？",
+   "pred2": "Ⅰ",
+   "final": "Ⅰ",
+   "ms": 4493
+  },
+  {
+   "case_id": "auto-039",
+   "question": "我们做的是一种带刻度和水平仪、量角器的定位装置，用来辅助引导穿刺靶点。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅰ",
+    "Ⅲ"
+   ],
+   "issue": "条目[2][3]显示含数控/自动控制或嵌入软件的穿刺引导装置按Ⅲ类管理，若本产品含电动调节或软件控制则可能归Ⅲ类。",
+   "ask": "产品有电动调节或软件控制吗？",
+   "pred2": "Ⅰ",
+   "final": "Ⅰ",
+   "ms": 4630
+  },
+  {
+   "case_id": "auto-040",
+   "question": "我们做的是用电场把人体样本里的成分分开来分析的东西，这算哪类？",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅰ",
+    "Ⅱ"
+   ],
+   "issue": "该产品用外加电场分离人体样本成分并检测，既可归入电泳仪器类按Ⅰ类管理，也可参照质谱等电场分离检测系统按Ⅱ类管理。",
+   "ask": "电场是仅用于分离，还是直接参与检测？",
+   "pred2": "Ⅰ",
+   "final": "Ⅰ",
+   "ms": 4287
+  },
+  {
+   "case_id": "auto-041",
+   "question": "我们做的是带各种头的小针，用来探、拨、挑、刺组织建立通路的，您看这怎么归类？",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅰ",
+    "Ⅱ"
+   ],
+   "issue": "若产品为无菌提供、一次性使用，用于穿刺组织建立通路，可按条目[4]归为Ⅱ类；而条目[1][3]的非无菌可重复使用探拨挑刺",
+   "ask": "产品是否无菌提供、一次性使用？",
+   "pred2": "Ⅰ",
+   "final": "Ⅰ",
+   "ms": 5039
+  },
+  {
+   "case_id": "auto-042",
+   "question": "我们做的是一面镜子的不锈钢器械，用于口腔正畸时辅助拍照。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅰ"
+   ],
+   "issue": "同为不锈钢镜面、非无菌可重复使用、用于口腔正畸拍照辅助的口镜类产品，条目[2]按Ⅰ类管理，与本产品判为Ⅱ类存在分歧。",
+   "ask": "该镜子是否接触破损黏膜或进入无菌组织？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 3927
+  },
+  {
+   "case_id": "auto-043",
+   "question": "我们做的是不锈钢剪刀，带环状手柄，非无菌，牙科手术中用来剪口腔组织或修复体。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 2503
+  },
+  {
+   "case_id": "auto-044",
+   "question": "我们做的是两片不锈钢刀头带螺钉、剪新生儿脐带用的，想咨询下这样申报行不行。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅰ",
+    "Ⅱ"
+   ],
+   "issue": "条目[1]明确将“用于剪切新生儿脐带”的两片不锈钢螺钉连接剪（脐带剪）列为Ⅱ类，与判为Ⅰ类的依据冲突。",
+   "ask": "剪切新生儿脐带是否接触完好皮肤？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 5014
+  },
+  {
+   "case_id": "auto-045",
+   "question": "我们做的是配合手术台牵引患者四肢帮助恢复的金属器械，可重复使用。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 1533
+  },
+  {
+   "case_id": "auto-046",
+   "question": "我们做的是装灌肠液用的软袋加接头，连上管子就能给病人灌肠，不含药水也不无菌。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅰ",
+    "Ⅱ"
+   ],
+   "issue": "同为02灌肠器目录条目，另一条记录（记录2197）将“软袋+接头、不含内容物、非无菌提供”的灌肠器按Ⅱ类管理，与Ⅰ类判定",
+   "ask": "软袋接头是否与灌肠管一体连接？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 4829
+  },
+  {
+   "case_id": "auto-047",
+   "question": "我们做的是手术时接手柄、在导航引导下给骨头攻螺纹的不锈钢锥形带螺纹工具，可重复使用。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 2006
+  },
+  {
+   "case_id": "auto-048",
+   "question": "我们做的是充气床垫，给术后或长期卧床患者用，预防和缓解压疮。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅰ"
+   ],
+   "issue": "同为充气防褥疮床垫，条目[2]品名举例含“充气防褥疮床垫、波动型充气防褥疮床垫、喷气型充气防褥疮床垫”且管理类别为Ⅰ，与",
+   "ask": "产品是否带波动或喷气等主动按摩功能？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 5088
+  },
+  {
+   "case_id": "auto-049",
+   "question": "我们做的是手术时固定头部的托架，不接触神经和血液，非无菌提供，用来稳住手术区域。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 2568
+  },
+  {
+   "case_id": "auto-050",
+   "question": "我们做的是采集和保存尿液样本、方便运输和储存的东西。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅰ",
+    "Ⅱ"
+   ],
+   "issue": "检索条目[10]的密闭计尿器用于收集尿液并测量排尿量，管理类别为Ⅱ，与本品收集储存尿液的Ⅰ类界定存在用途交叉，可能按Ⅱ类",
+   "ask": "是否用于测量排尿量？",
+   "pred2": "Ⅰ",
+   "final": "Ⅰ",
+   "ms": 4991
+  },
+  {
+   "case_id": "auto-051",
+   "question": "我们做的是不锈钢小夹子，用来夹住组织，非无菌提供，想咨询一下管理要求。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 2133
+  },
+  {
+   "case_id": "auto-052",
+   "question": "我们做的是椎间盘手术中用来剥离保护神经的器械，非无菌提供。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅰ",
+    "Ⅱ"
+   ],
+   "issue": "条目[2][3][4]显示含神经剥离器的椎间孔镜/椎体后缘处理器械包按Ⅱ类管理，与按Ⅰ类剥离器管理的条目[5]存在分歧。",
+   "ask": "该器械是否具有剥离功能？",
+   "pred2": "Ⅰ",
+   "final": "Ⅰ",
+   "ms": 5121
+  },
+  {
+   "case_id": "auto-053",
+   "question": "我们做的是四肢骨折打钢钉手术时用的钻头和导向套，不锈钢或塑料的，非无菌，也不接动力工具。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 1911
+  },
+  {
+   "case_id": "auto-054",
+   "question": "我们做的是用玻璃纤维、石膏粉等材料制成、非无菌提供的外固定产品，用于骨折或软组织损伤的固定。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 1946
+  },
+  {
+   "case_id": "auto-055",
+   "question": "我们做的产品用于临床检验中靶细胞的富集或去除，想咨询一下相关要求。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 1792
+  },
+  {
+   "case_id": "auto-056",
+   "question": "我们做的是带轮子和护膝板、能推着转运病人也能帮患者站着动的无源器械，这用途该怎么归类？",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 2215
+  },
+  {
+   "case_id": "auto-057",
+   "question": "我们做的是金属的，非无菌提供，用来混匀骨水泥或者把骨水泥送到人体里，这算骨科工具吧？",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 2552
+  },
+  {
+   "case_id": "auto-058",
+   "question": "我们做的是带管子和拭子的采样保存产品，非无菌，用来收集、运输和储存样本，想请教这样申报是否可行。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅰ"
+   ],
+   "issue": "同为“拭子+含保存液管、非无菌提供、用于样本收集运输储存”的一次性使用病毒采样管，在2021年12月分类界定结果中按Ⅰ类",
+   "ask": "保存液是否含微生物抑制或裂解成分？",
+   "pred2": "Ⅰ",
+   "final": "Ⅰ",
+   "ms": 5557
+  },
+  {
+   "case_id": "auto-059",
+   "question": "我们做的是心脏瓣膜手术时连接持瓣器用来放置瓣膜的手柄，可重复使用，用前要灭菌。",
+   "gold": "Ⅰ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 2673
+  },
+  {
+   "case_id": "auto-060",
+   "question": "我们做的是涂在创面上形成保护层、护理小伤口和术后创面的无菌产品，但实验显示它没有抑菌作用。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2048
+  },
+  {
+   "case_id": "auto-061",
+   "question": "我们做的是接上气囊或管路就能测内部压力的装置，想请教一下这类产品怎么管理。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2006
+  },
+  {
+   "case_id": "auto-062",
+   "question": "我们做的是用来检测阴茎勃起状态和敏感性、也能用来取精的仪器。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅲ类"
+   ],
+   "issue": "条目[4]将用于辅助生殖技术中自动优选和捕获单个精子的活体精子优选工作站按Ⅲ类管理，而该产品兼具取精功能且描述含精子优选",
+   "ask": "该产品是否用于辅助生殖技术？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 4947
+  },
+  {
+   "case_id": "auto-063",
+   "question": "我们做的产品通过磁场、远红外和低频电刺激作用于穴位，用于肩周炎、腰肌劳损和软组织损伤的辅助治疗。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2442
+  },
+  {
+   "case_id": "auto-064",
+   "question": "我们做的是关节手术里用来定位、探测、导向和提供基准的配套工具，也用于置换手术中截骨块的支撑定位。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2180
+  },
+  {
+   "case_id": "auto-065",
+   "question": "我们做的是给手术冲洗和自然腔道冲洗用的设备，还能给冲洗液加温。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅲ"
+   ],
+   "issue": "条目[9]体腔热灌注治疗机因用于腹腔热灌注治疗且涉及加热被归为Ⅲ类，而该产品同样具备冲洗液加温功能，若其加温用于体腔热灌",
+   "ask": "加温后的冲洗液是否进入体腔？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 4642
+  },
+  {
+   "case_id": "auto-066",
+   "question": "我们做的是穿戴在头、躯干或四肢上，用来矫正或预防畸形的产品，想请教这类产品监管上怎么认定。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅰ类"
+   ],
+   "issue": "检索条目中矫正/预防畸形的矫形器多按Ⅱ类管理，但同为穿戴式矫形固定器械的条目未统一，若产品无源、非无菌、仅具固定支撑作用",
+   "ask": "产品是否接触皮肤破损处？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 5055
+  },
+  {
+   "case_id": "auto-067",
+   "question": "我们做的是不锈钢针管带刃口、接触血液循环的产品，用于主动脉根部排气。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅱ"
+   ],
+   "issue": "条目[1]直接对应“02排气针”，产品描述（不锈钢针管带刃口、接触血液循环、用于主动脉根部排气）与申报产品完全一致，管理",
+   "ask": "是否带刃口用于穿刺排气？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 4818
+  },
+  {
+   "case_id": "auto-068",
+   "question": "我们做的是在宫腔镜下切割子宫息肉并取出的器械，想咨询一下申报要求。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅲ类"
+   ],
+   "issue": "条目[1]目录明确该宫腔镜息肉去除器为Ⅱ类，但检索中另有分类界定条目[9]等显示同类腔镜切割器械被建议按Ⅲ类管理，存在同",
+   "ask": "该产品是否含主动切割能量？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 5691
+  },
+  {
+   "case_id": "auto-069",
+   "question": "我们做的是从医疗设备采集患者数据，用来显示传输存储并放大波形，辅助医生诊断。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2020
+  },
+  {
+   "case_id": "auto-070",
+   "question": "我们做的是戴耳朵上测体温和心率的，数据能辅助临床诊断，这该怎么报？",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 1561
+  },
+  {
+   "case_id": "auto-071",
+   "question": "我们做的是给患者局部环境净化空气的设备，带紫外杀菌，用在临床机构里。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅰ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅰ",
+    "Ⅱ"
+   ],
+   "issue": "该设备用于临床机构患者局部环境空气净化并带紫外杀菌，若按紫外线消毒设备管理应为Ⅱ类，而按可移动患者洁净单元管理为Ⅰ类，两",
+   "ask": "紫外杀菌是否为主要消毒方式？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 4942
+  },
+  {
+   "case_id": "auto-072",
+   "question": "我们做的是不锈钢中空器械，脊柱手术里用来切除骨或取骨。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2439
+  },
+  {
+   "case_id": "auto-073",
+   "question": "我们做的是涂在伤口表面形成保护层、起物理屏障作用、护理小创口和擦伤等非慢性创面的产品。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2576
+  },
+  {
+   "case_id": "auto-074",
+   "question": "我们做的是用电解方式产生酸性水，用来给可耐受的医疗器械消毒的设备。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2910
+  },
+  {
+   "case_id": "auto-075",
+   "question": "我们做的是带刻度的无菌吸引管，用于早期妊娠人工流产及其他宫腔手术。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2399
+  },
+  {
+   "case_id": "auto-076",
+   "question": "我们做的是用二氧化氯气体熏蒸给X射线防护服或医用防护服消毒的设备，这用途合规吗？",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 1655
+  },
+  {
+   "case_id": "auto-077",
+   "question": "我们做的是采人体末梢血的，配合一次性采血容器用于皮肤穿刺，不适用于12岁以下。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅰ"
+   ],
+   "issue": "产品为配合一次性采血容器使用的皮肤穿刺采血器械，若按采血笔等辅助穿刺器械管理可为Ⅰ类，而按末梢采血针管理为Ⅱ类，存在分类",
+   "ask": "该器械是否带穿刺针或刀片？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 5260
+  },
+  {
+   "case_id": "auto-078",
+   "question": "我们做的是不锈钢杆状器械，用来剥离或分离粘膜和组织，想咨询一下监管要求。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 1797
+  },
+  {
+   "case_id": "auto-079",
+   "question": "我们做的是帮医生看患者体态步态和脊柱影像、给临床参考但不给诊断结论的软件。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2058
+  },
+  {
+   "case_id": "auto-080",
+   "question": "我们做的产品靠负压吸出内陷乳头，用来缓解哺乳期妇女的乳头内陷问题。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 1767
+  },
+  {
+   "case_id": "auto-081",
+   "question": "我们做的是用于小创口、擦伤等非慢性创面及周围皮肤护理的无菌产品。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2854
+  },
+  {
+   "case_id": "auto-082",
+   "question": "我们做的是硅胶材质无菌产品，配合内窥镜装在先端部保持视野。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "非医疗器械"
+   ],
+   "issue": "若该硅胶件仅在内窥镜搬运存储时套装于先端部起防碰撞保护作用、不接触患者也不进入人体，则可参照“内镜先端保护软管”按非医疗",
+   "ask": "该产品使用时是否接触患者或进入人体？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 4869
+  },
+  {
+   "case_id": "auto-083",
+   "question": "我们做的是一种带刀片和刀柄的切割工具，用来切割组织或手术中的器械，想咨询一下合规要求。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅲ"
+   ],
+   "issue": "检索条目[6]显示由刀柄和刀头组成、用于软组织切割的超声手术刀头按第三类管理；若该切割工具为有源超声类，则可能归Ⅲ类而非",
+   "ask": "该切割工具是否含超声等有源驱动？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 4650
+  },
+  {
+   "case_id": "auto-084",
+   "question": "我们做的是带芯片的医用棉垫，用来吸手术渗血、测算出血量并辅助判断体内有无遗留。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅱ类外科织造布类敷料"
+   ],
+   "issue": "条目[1]所述内嵌射频识别元件、用于吸渗血并辅助测算出血量及判断体内遗留的医用棉垫，与条目[2]“外科织造布类敷料”（用",
+   "ask": "芯片是否仅为棉垫附属标识？",
+   "pred2": "Ⅱ类外科织造布类敷料",
+   "final": "Ⅱ类外科织造布类敷料",
+   "ms": 6198
+  },
+  {
+   "case_id": "auto-085",
+   "question": "我们做的是带电源和压陷器的眼底检查设备，用来查视网膜小视野。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 1933
+  },
+  {
+   "case_id": "auto-086",
+   "question": "我们做的是测脉搏血氧饱和度的仪器，想咨询临床使用该怎么合规。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2146
+  },
+  {
+   "case_id": "auto-087",
+   "question": "我们做的这个器械是测血液和体液里酸碱、氧气等指标的，想咨询下怎么申报。",
+   "gold": "Ⅱ",
+   "pred1": "信息不足",
+   "ambiguous": true,
+   "pair": [
+    "信息不足",
+    "第二类医疗器械"
+   ],
+   "issue": "血气分析仪等临床检验设备通常按第二类管理，但检索条目未覆盖血气分析仪本身的分类界定，无法确认其管理类别。",
+   "ask": "该产品是否按血气分析仪专门分类界定申报？",
+   "pred2": "第二类医疗器械",
+   "final": "第二类医疗器械",
+   "ms": 4456
+  },
+  {
+   "case_id": "auto-088",
+   "question": "我们做的是通过发热和远红外辐射促进血液循环的产品，用于霰粒肿早期治疗及术后热敷护理。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 1587
+  },
+  {
+   "case_id": "auto-089",
+   "question": "我们做的是用不锈钢叶片夹住组织的那种器械，想咨询下合规要求。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 2112
+  },
+  {
+   "case_id": "auto-090",
+   "question": "我们做的是收集并放大心、肺、动脉等内脏声音用来听诊的设备，想请教合规要求。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2039
+  },
+  {
+   "case_id": "auto-091",
+   "question": "我们做的这个连着呼吸机给病人吸氧用，氧气直接送或湿化后送都行。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2057
+  },
+  {
+   "case_id": "auto-092",
+   "question": "我们做的是无菌一次性贴伤口的东西，用来护理小创口、擦伤这些浅表创面。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅰ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅰ",
+   "ms": 2533
+  },
+  {
+   "case_id": "auto-093",
+   "question": "我们做的这个能记录患者咬合压力、帮医生看牙齿受力分布情况。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 1564
+  },
+  {
+   "case_id": "auto-094",
+   "question": "我们做的是正畸用的器具，靠持续外力把牙齿挪到正确咬合位置，或用来巩固矫治后的效果。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2320
+  },
+  {
+   "case_id": "auto-095",
+   "question": "我们做的是给小腿加压测胫骨位移的装置，数据用来评估前交叉韧带损伤和康复强度。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2729
+  },
+  {
+   "case_id": "auto-096",
+   "question": "我们做的是用汞和银合金粉混合成银汞合金，用来直接补牙的那种产品。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ"
+   ],
+   "issue": "分类目录中“06银汞合金”条目本身标注管理类别为Ⅱ，与判定为Ⅲ相矛盾，且其产品描述（汞+银合金粉经汞齐化生成银汞合金、用",
+   "ask": "产品是否已获Ⅲ类注册证？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 5170
+  },
+  {
+   "case_id": "auto-097",
+   "question": "我们做的这个是一次性导管，从鼻子或嘴插到胃里，能喂食抽胃液，也给呼吸机测膈肌信号。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ"
+   ],
+   "issue": "该产品与记录1065的膈肌导管（Ⅲ类）结构用途高度相似，但记录5中同类膈肌导管按Ⅱ类管理，且其鼻胃管喂食抽液功能也符合Ⅱ",
+   "ask": "该产品是否接触中枢神经系统？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 5163
+  },
+  {
+   "case_id": "auto-098",
+   "question": "我们做的是无菌粉末，不被人体吸收，用于浅表非慢性创面护理和止血。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2476
+  },
+  {
+   "case_id": "auto-099",
+   "question": "我们做的是用红外线和电加热给全身加热的设备，用来缓解神经和肌肉疼痛。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅲ"
+   ],
+   "issue": "同样是红外加热设备，条目[8]将红外线加热用于肿瘤热疗的产品判为Ⅲ类，而本产品仅用于缓解神经肌肉疼痛，若其加热范围或强度",
+   "ask": "是否用于肿瘤热疗？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 5770
+  },
+  {
+   "case_id": "auto-100",
+   "question": "我们做的是通过加热石蜡把热量传到身上，用来促进局部血液循环、软解瘢痕和镇痛的辅助治疗设备。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅲ类"
+   ],
+   "issue": "条目[4]将用于肿瘤辅助热疗的同类热疗设备按Ⅲ类管理，若产品声称用于肿瘤辅助治疗则可能归入Ⅲ类，但产品描述仅涉及促进局部",
+   "ask": "产品是否声称用于肿瘤辅助治疗？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 6348
+  },
+  {
+   "case_id": "auto-101",
+   "question": "我们做的是用仪器比对蛋白指纹来鉴定临床分离的细菌、真菌和分枝杆菌的产品。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2032
+  },
+  {
+   "case_id": "auto-102",
+   "question": "我们做的是在内窥镜手术里用来分离组织的器械，头部是不锈钢的，您看这样怎么归类？",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅱ"
+   ],
+   "issue": "检索条目中内窥镜用剥离器（记录211）预期用途为“剥离或分离粘膜、组织”，与本产品“分离组织”的用途高度重叠，品名举例含",
+   "ask": "该器械是否带切割/电凝功能？",
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 4813
+  },
+  {
+   "case_id": "auto-103",
+   "question": "我们做的是采血时用来持针、采完血后收集废针防止扎伤感染的一次性器具。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 3300
+  },
+  {
+   "case_id": "auto-104",
+   "question": "我们做的软件能连影像系统，接收处理影像供临床诊疗用",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2055
+  },
+  {
+   "case_id": "auto-105",
+   "question": "我们做的是配合口内影像接收器拍牙片、给医生诊断用的X射线设备。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅱ类（牙科X射线机）"
+   ],
+   "issue": "产品为配合口内影像接收器拍牙片供诊断的X射线设备，检索条目[3]“牙科X射线机、数字化牙科X射线机”管理类别为Ⅱ类，与判",
+   "ask": "该设备是否自带口内影像接收器？",
+   "pred2": "Ⅱ类（牙科X射线机）",
+   "final": "Ⅱ类（牙科X射线机）",
+   "ms": 4108
+  },
+  {
+   "case_id": "auto-106",
+   "question": "我们做的是用可降解材料做的带孔定位板，用来帮插植针或穿刺针在治疗时对准方向。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅰ"
+   ],
+   "issue": "条目[1]中同类近距离放射治疗穿刺导板未给出管理类别，而条目[3]的穿刺针类产品按Ⅰ类管理；若仅按“带孔定位板辅助穿刺针",
+   "ask": "定位板是否接触人体或进入组织？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 4804
+  },
+  {
+   "case_id": "auto-107",
+   "question": "我们做的是尖端锋利的硬管，用来把导丝或导管送进血管，想请教您这算哪类管理。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ"
+   ],
+   "issue": "条目[9]显示同类“血管穿刺针”因2022年第25号公告调整为Ⅱ类，而条目[1]仍标Ⅲ类，存在分类口径冲突",
+   "ask": "产品是否带穿刺针尖并进入血管？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 5534
+  },
+  {
+   "case_id": "auto-108",
+   "question": "我们做的这个凝胶喷鼻产品，是帮过敏性鼻炎和哮喘患者挡住过敏原、缓解鼻部症状的。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2475
+  },
+  {
+   "case_id": "auto-109",
+   "question": "我们做的是能测足底压力、帮医生评估糖尿病足等足部问题的鞋和配套软件。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2500
+  },
+  {
+   "case_id": "auto-110",
+   "question": "我们做的是天然纤维粉末加草莓香精，喷进鼻子形成凝胶挡住过敏原，用来缓解花粉症和过敏症状。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2105
+  },
+  {
+   "case_id": "auto-111",
+   "question": "我们做的是靠螺栓调节足弓曲度的垫板，用来辅助治疗扁平足。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅰ"
+   ],
+   "issue": "条目[1]将“足部固定器”等归为Ⅰ类，本品靠螺栓调节足弓曲度辅助治疗扁平足，与足部固定器功能相近，而条目[3]明确“足弓",
+   "ask": "产品是否直接接触足部皮肤使用？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 4788
+  },
+  {
+   "case_id": "auto-112",
+   "question": "我们做的这种设备配合试剂，能对人体样本里的待测物做定性和定量分析。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 1680
+  },
+  {
+   "case_id": "auto-113",
+   "question": "我们做的是临时修复体和临时辅助义齿固位用的材料。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2826
+  },
+  {
+   "case_id": "auto-114",
+   "question": "我们做的是从监护设备取数据、集中实时显示和报警的软件，想咨询一下监管要求。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2291
+  },
+  {
+   "case_id": "auto-115",
+   "question": "我们做的是涂在浅表小伤口上形成保护层的护理产品，想问下这样合规吗？",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2433
+  },
+  {
+   "case_id": "auto-116",
+   "question": "我们做的是用蓝光和红外光扫描眼睛、拍角膜断层图来测角膜各项参数的设备，想咨询一下这该怎么申报。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 1950
+  },
+  {
+   "case_id": "auto-117",
+   "question": "我们做的是帮病人从膀胱经尿道排尿的一次性无菌产品，带水润滑包。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 1930
+  },
+  {
+   "case_id": "auto-118",
+   "question": "我们做的是配合吸引管用于早期妊娠人工流产和其他宫腔手术的设备。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅰ"
+   ],
+   "issue": "该产品为配合吸引管使用的宫腔手术设备，条目[2]将同类宫腔负压吸引设备及附件（流产吸引管、宫腔吸引管）列为Ⅰ类，而将其判",
+   "ask": "该设备是否主动产生负压？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 5595
+  },
+  {
+   "case_id": "auto-119",
+   "question": "我们做的是润滑软化咽部粘膜、保持湿润来减轻打鼾的产品，想请教这样申报行不行。",
+   "gold": "Ⅱ",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "非医疗器械"
+   ],
+   "issue": "2018年分类界定结果将成分相似（含甘油、吐温80等润滑软化成分）的止鼾喷雾列为非医疗器械，与2017年目录条目按Ⅱ类管",
+   "ask": "产品作用机制是物理润滑还是药理作用？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 5003
+  },
+  {
+   "case_id": "auto-120",
+   "question": "我们做的是无菌的润眼液，戴隐形眼镜时用来湿润和润滑镜片。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ"
+   ],
+   "issue": "同为无菌隐形眼镜润滑液，2021年分类界定结果中记录2771明确按Ⅱ类管理，与多条Ⅲ类界定并存。",
+   "ask": "产品是用于润滑镜片还是眼表？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 5043
+  },
+  {
+   "case_id": "auto-121",
+   "question": "我们做的设备是让患者躺着，用电磁波加热盆腔和前列腺深部组织，用来辅助治疗慢性前列腺炎、前列腺增生和盆腔炎，这风险高吗？",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅲ",
+   "ms": 2049
+  },
+  {
+   "case_id": "auto-122",
+   "question": "我们做的是固定头部并在CT扫描时帮医生在头皮上标记脑内病灶位置的产品，用于颅脑手术前定位。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ"
+   ],
+   "issue": "该产品仅为CT扫描时在头皮做病灶标记的术前定位辅助器械，不进入颅内、不参与手术导航计算，可按Ⅱ类手术器械/固位辅助器械管",
+   "ask": "是否接触头皮破损处或有无创要求？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 5134
+  },
+  {
+   "case_id": "auto-123",
+   "question": "我们做的是一种V型小夹子，脑部手术时夹血管止血，术后不取。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅲ",
+   "ms": 2736
+  },
+  {
+   "case_id": "auto-124",
+   "question": "我们做的是用来堵住眼角那个小孔、辅助把堵塞物放进去的东西，想咨询下这怎么管。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ"
+   ],
+   "issue": "该产品为辅助放置泪小管阻芯的泪点塞放置器，与Ⅲ类泪点塞/泪小管阻芯配套使用，但检索条目中“泪点塞放置器”作为辅助器具与泪",
+   "ask": "放置器是否与泪点塞物理接触？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 4430
+  },
+  {
+   "case_id": "auto-125",
+   "question": "我们做的是用X射线治疗浅中部肿瘤的设备，想请教一下监管要求。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅲ",
+   "ms": 1566
+  },
+  {
+   "case_id": "auto-126",
+   "question": "我们做的是配合射频治疗仪把电流传到椎间盘软组织，用来消融、凝固和止血的无菌一次性器械。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅲ",
+   "ms": 1333
+  },
+  {
+   "case_id": "auto-127",
+   "question": "我们做的是主机带电极大组织电刺激，用来辅助治疗炎症的。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅲ",
+   "ms": 2808
+  },
+  {
+   "case_id": "auto-128",
+   "question": "我们做的是放疗时帮病人精准摆位的设备，想咨询一下合规要求。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅲ",
+   "ms": 2266
+  },
+  {
+   "case_id": "auto-129",
+   "question": "我们做的是控制气流、改善肺气肿患者肺功能并减少漏气的器械。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅲ",
+   "ms": 2350
+  },
+  {
+   "case_id": "auto-130",
+   "question": "我们做的是给输液泵供电、通信采数据，并在镇痛化疗胰岛素输注时报警的移动支架。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ"
+   ],
+   "issue": "该产品为带电源和红外通讯接口的移动支架，用于镇痛药、化疗药物、胰岛素输注报警并采集数据，与目录条目[1]“输液信息采集系",
+   "ask": "报警依据的是泵的数据还是支架自身传感器？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 4803
+  },
+  {
+   "case_id": "auto-131",
+   "question": "我们做的是经皮穿刺把导管送进血管和心腔、包括房间隔进入左心，术前建通道、术中撑导管的无菌一次性产品。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ"
+   ],
+   "issue": "条目[5]将仅建立无菌屏障的介入配套耗材判为Ⅱ类，而该产品含房间隔穿刺针等有源电极组件，若按“配套耗材/无菌屏障”路径可",
+   "ask": "产品是否含穿刺针等有源电极组件？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 5831
+  },
+  {
+   "case_id": "auto-132",
+   "question": "我们做的是给分娩、人流、口腔和胃镜检查时镇痛镇静用的供气设备。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ"
+   ],
+   "issue": "条目[2][10]等供氧/供气设备按Ⅱ类管理，但本产品明确用于分娩、人流、口腔及胃镜检查的清醒镇静镇痛，与条目[1]吸入",
+   "ask": "气体是否含麻醉或镇痛药物成分？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 4693
+  },
+  {
+   "case_id": "auto-133",
+   "question": "我们做的是在内窥镜下缝合消化道软组织、钉子留在体内超过30天的无菌产品，想请教注册要求。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ类"
+   ],
+   "issue": "条目[1]的同类一次性内窥镜用缝合系统未明确钉在体内滞留超30天即按Ⅲ类管理，而该产品因钉子留置超过30天可能被归为植入",
+   "ask": "钉子是否可降解或取出？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 4780
+  },
+  {
+   "case_id": "auto-134",
+   "question": "我们做的是在影像设备下把植入体内的滤器抓取出来并移出人体的器械。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅲ",
+   "ms": 2303
+  },
+  {
+   "case_id": "auto-135",
+   "question": "我们做的是无菌的润滑液，佩戴隐形眼镜时用来湿润和润滑镜片。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ"
+   ],
+   "issue": "同为无菌隐形眼镜润滑液，2021年及2024年多个分类界定条目判为Ⅲ类，但2018年分类界定结果汇总中有按Ⅱ类管理的条目",
+   "ask": "产品是单支无菌包装，还是多次使用包装？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 5641
+  },
+  {
+   "case_id": "auto-136",
+   "question": "我们做的是用热水灌注腹腔来治疗恶性肿瘤或癌性腹水的设备。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ"
+   ],
+   "issue": "条目[4]腹水超滤浓缩回输设备同为腹腔积液处理类治疗设备却按Ⅱ类管理，而本产品热水灌注腹腔治疗癌性腹水，若仅视为腹水引流",
+   "ask": "热水是否接触人体组织并起主要治疗作用？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 4703
+  },
+  {
+   "case_id": "auto-137",
+   "question": "我们做的是介入手术里帮心血管电极导管插进血管的一次性无菌器械。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅲ",
+   "ms": 1996
+  },
+  {
+   "case_id": "auto-138",
+   "question": "我们做的是把挥发性麻醉剂变成可控蒸气送进病人呼吸系统做全身麻醉的装置。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ"
+   ],
+   "issue": "条目[2]将同类“麻醉蒸发器”按2021年分类界定汇总判为Ⅱ类，与条目[1]按2017年目录判为Ⅲ类及条目[8]2024",
+   "ask": "该产品是否含麻醉剂浓度闭环控制？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 4461
+  },
+  {
+   "case_id": "auto-139",
+   "question": "我们做的是用超声波消融颈部斑块、辅助治疗颈动脉粥样硬化的设备。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅲ",
+   "ms": 2096
+  },
+  {
+   "case_id": "auto-140",
+   "question": "我们做的是手术中能透视拍片、还能做血管和断层成像的设备，用来帮医生诊断。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ"
+   ],
+   "issue": "该产品为手术中使用的透视摄影X射线机并兼具血管与断层成像功能，若按透视摄影X射线机或非眼科光相干断层成像系统条目可归为Ⅱ",
+   "ask": "该设备是否含血管造影介入功能？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 5290
+  },
+  {
+   "case_id": "auto-141",
+   "question": "我们做的这个灯能自动调光训练眼睛，还用红光照射眼底，想用来控制近视发展，这合规吗？",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ"
+   ],
+   "issue": "该产品含LED红光照射与自动调光训练，若仅起辅助理疗或训练作用、不声称治疗近视，可能按光治疗设备归Ⅱ类（如红蓝黄光治疗仪",
+   "ask": "是否宣称“控制近视”等治疗作用？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 4967
+  },
+  {
+   "case_id": "auto-142",
+   "question": "我们做的是帮医生看肺部小结节、判断良恶性并测算大小等数据的软件。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ类"
+   ],
+   "issue": "该产品为肺结节辅助诊断软件，检索条目[1][2][3][8]将其归为Ⅲ类决策支持软件，但若仅具显示、测量等处理功能而不给",
+   "ask": "软件是否直接给出良恶性诊断结论？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 4755
+  },
+  {
+   "case_id": "auto-143",
+   "question": "我们做的缝线带壳聚糖涂层，用于缝合软组织，想咨询涂层脱落有无风险。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ类"
+   ],
+   "issue": "条目[5]显示仅用于软组织缝合结扎的缝线可按Ⅱ类管理，而本产品壳聚糖涂层脱落残留体内且涂层作用机制涉及生物学效应，分类判",
+   "ask": "涂层是否起药理/免疫等生物学作用？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 4567
+  },
+  {
+   "case_id": "auto-144",
+   "question": "我们做的是用软件分析内镜影像，帮医生识别胃和肠道里的异常，用于辅助检查提醒。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ"
+   ],
+   "issue": "该产品仅对消化内镜影像作异常识别与提醒（辅助检查提醒），条目[2]将同类“消化内镜影像处理软件”判为Ⅲ类，但条目[4]/",
+   "ask": "是否向医生提供病灶性质判断？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 4849
+  },
+  {
+   "case_id": "auto-145",
+   "question": "我们做的这个仪器通过手柄和导管把能量打到心脏血管钙化处，把钙化斑块打裂，用来治冠状动脉钙化。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅲ",
+   "ms": 1828
+  },
+  {
+   "case_id": "auto-146",
+   "question": "我们做的是不添加细胞和活性成分、能引导组织再生的植入材料，用于损坏或缺失的组织器官修复。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅲ",
+   "ms": 1723
+  },
+  {
+   "case_id": "auto-147",
+   "question": "我们做的是帮医生看肿瘤基因突变、选靶向药的分析软件。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅲ",
+   "ms": 2350
+  },
+  {
+   "case_id": "auto-148",
+   "question": "我们做的是让医生用软件开游戏训练方案，帮患者辅助康复焦虑、精神分裂、脑卒中引起的认知障碍。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ"
+   ],
+   "issue": "条目[1]的产品描述与申报产品高度一致（医生制定游戏形式训练方案，用于焦虑症、精神分裂症、脑卒中等认知障碍辅助训练），而",
+   "ask": "该软件是否宣称具有治疗作用？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 5482
+  },
+  {
+   "case_id": "auto-149",
+   "question": "我们做的是给脑卒中后手脚不便的人做辅助治疗和康复训练的设备，想咨询下合规问题。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅲ"
+   ],
+   "issue": "条目[3][4]中用于脑卒中患者手功能康复训练的设备（如经颅磁刺激手功能康复系统、脑控外骨骼手功能康复设备）被归为Ⅲ类，",
+   "ask": "是否涉及中枢神经刺激或脑控？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 5833
+  },
+  {
+   "case_id": "auto-150",
+   "question": "我们做的是配合冷光仪用在牙面上、靠过氧化氢去牙渍美白牙齿的产品。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ类医疗器械"
+   ],
+   "issue": "条目[3]显示含16%过氧化脲（相当6%过氧化氢）且与冷光仪配合使用的牙齿美白凝胶按Ⅰ类管理，而条目[4]提出过氧化物含",
+   "ask": "产品是含过氧化脲还是过氧化氢？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 4848
+  },
+  {
+   "case_id": "auto-151",
+   "question": "我们做的是配合超声手术设备用的器械，用于开放或腔镜手术中切割软组织并控制出血。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅲ",
+   "ms": 2080
+  },
+  {
+   "case_id": "auto-152",
+   "question": "我们做的是用于肛管齿状线上黏膜切除吻合、钉子可降解吸收的一次性无菌器械。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ类"
+   ],
+   "issue": "该产品为肛管黏膜切割吻合且吻合钉可降解吸收，虽与条目[2]中Ⅲ类“一次性带可降解吻合钉的痔上黏膜切割吻合器”高度相似，但",
+   "ask": "吻合钉降解后是否经肛管排出？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 6170
+  },
+  {
+   "case_id": "auto-153",
+   "question": "我们做的是打针抽液用的一次性无菌针具，带自毁装置，想咨询下合规要求。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅲ",
+   "ms": 2009
+  },
+  {
+   "case_id": "auto-154",
+   "question": "我们做的是用医用软管引导耳蜗电极插入并帮助定位的一次性无菌产品。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 1996
+  },
+  {
+   "case_id": "auto-155",
+   "question": "我们做的是把气管、血管的影像做三维处理，帮医生规划到病灶的手术路径，模拟内窥镜手术的影像。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅲ",
+   "ms": 2113
+  },
+  {
+   "case_id": "auto-156",
+   "question": "我们做的是能顺着血管把导管或扩张器送到位置并定住的软管，这算哪类？",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ"
+   ],
+   "issue": "2023年第101号公告将“引导导管等介入器械插入血管和/或定位的柔性器械”（导丝）管理类别由Ⅲ调整为Ⅱ，而2017年目",
+   "ask": "该产品是否接触中枢循环系统？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 4634
+  },
+  {
+   "case_id": "auto-157",
+   "question": "我们做的是术前帮医生在影像上标记并测算截骨数据的软件，用于全膝关节置换手术前制定计划。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ"
+   ],
+   "issue": "条目[3]将术中仅测量定位、不制定手术计划的膝关节软件判为Ⅱ类，而本产品为术前标记测算截骨数据、用于制定手术计划，与条目",
+   "ask": "软件是否输出截骨量等手术参数？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 3890
+  },
+  {
+   "case_id": "auto-158",
+   "question": "我们做的是涂在内镜镜头上防起雾、溶离组织液保持视野清晰的液体。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ类"
+   ],
+   "issue": "条目[2]“一次性使用内窥镜手术防雾冲洗器”含防雾液但整体归Ⅲ类，而条目[1][3]的单纯防雾液均归Ⅲ类，未见将其按Ⅱ类",
+   "ask": "该产品是否接触人体创面或血液？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 6759
+  },
+  {
+   "case_id": "auto-159",
+   "question": "我们做的软件能把肝胆影像变成立体模型来测量分析，并模拟手术切割，这用途合规吗？",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ"
+   ],
+   "issue": "该产品仅做影像三维重建、测量分析和模拟切割体积计算，与记录3496等按Ⅱ类影像处理软件管理的产品实质相似，而Ⅲ类界定（记",
+   "ask": "是否用于手术导航或术中实时决策？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 5337
+  },
+  {
+   "case_id": "auto-160",
+   "question": "我们做的是能连续测颅脑内压力的设备，想请教一下怎么申报。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅲ",
+   "ms": 2933
+  },
+  {
+   "case_id": "auto-161",
+   "question": "我们做的是配合内窥镜往消化道粘膜下打针的一次性无菌器械，想咨询下合规要求。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅲ",
+   "ms": 1483
+  },
+  {
+   "case_id": "auto-162",
+   "question": "我们做的是连接放射性药物设备给患者输液的管路，想咨询分类。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 1986
+  },
+  {
+   "case_id": "auto-163",
+   "question": "我们做的是带框架和坐标显示板、能在诊断治疗时帮医生定位病灶的设备，想咨询一下怎么申报。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ类"
+   ],
+   "issue": "条目[5]“经皮穿刺角度定位器”由坐标角度计算及显示软件、显示器组件、标记板组成，用于穿刺时显示角度供医生参考，管理类别",
+   "ask": "该产品是否接触人体或穿刺针？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 4815
+  },
+  {
+   "case_id": "auto-164",
+   "question": "我们做的是注入宫腔后形成凝胶来预防术后组织再粘连的产品。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ类"
+   ],
+   "issue": "同为宫腔内植入形成凝胶预防术后粘连的产品，若凝胶仅起物理屏障作用且不降解吸收、不参与组织修复，可参照14-08-02可吸",
+   "ask": "凝胶是否会在体内降解吸收？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 5760
+  },
+  {
+   "case_id": "auto-165",
+   "question": "我们做的是用软件分析宫颈细胞图片，帮医生定位并分级异常细胞，辅助诊断。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ"
+   ],
+   "issue": "同样是宫颈病理影像处理软件，仅做格式转换、色彩调节、压缩等处理时按Ⅱ类管理，而本产品明确含异常细胞定位与分级、辅助诊断功",
+   "ask": "软件输出的是否为辅助诊断建议？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 5897
+  },
+  {
+   "case_id": "auto-166",
+   "question": "我们做的是能精确控制药液注入患者体内的设备，由驱动、电源、贮液和管路组成，贮液和管路一次性无菌使用。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅲ"
+   ],
+   "issue": "产品为带驱动、电源且能精确控制药液注入的输注设备，若按注射泵/输液泵类具定量控制功能的设备管理可归Ⅲ类，而Ⅱ类条目仅覆盖",
+   "ask": "是否用于维持生命或药物剂量误差可致命？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 5753
+  },
+  {
+   "case_id": "auto-167",
+   "question": "我们做的是能促进皮肤生长、慢慢被人体吸收的伤口敷料，用于护理下肢静脉溃疡这类慢性伤口。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅲ",
+   "ms": 2143
+  },
+  {
+   "case_id": "auto-168",
+   "question": "我们做的是用高压电场辅助治疗头疼失眠便秘和软组织疼痛的设备。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅲ",
+   "ms": 1782
+  },
+  {
+   "case_id": "auto-169",
+   "question": "我们做的是从创口或自然孔道进入人体、用来成像和诊断的设备。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ"
+   ],
+   "issue": "条目[5]和[7]显示同样“通过创口或自然孔道进入人体内，用于成像和诊断”的内窥镜类产品（如胆道镜、腹腔镜、输尿管内窥镜",
+   "ask": "是重复使用还是一次性使用？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 4257
+  },
+  {
+   "case_id": "auto-170",
+   "question": "我们做的是在显微注射后帮助卵子激活、提高受精率的产品。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ"
+   ],
+   "issue": "条目[1]将同类“体外辅助生殖用人工卵母细胞处理液（含钙离子霉素，用于ICSI后辅助激活卵子）”归入18-辅助生殖器械，",
+   "ask": "产品含钙离子霉素吗？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 4768
+  },
+  {
+   "case_id": "auto-171",
+   "question": "我们做的是注射到下颌骨骨膜上起支撑填充作用、能被人体吸收的产品，这算什么？",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅲ",
+   "ms": 2224
+  },
+  {
+   "case_id": "auto-172",
+   "question": "我们做的是配合内窥镜在消化道里放夹子、用来标记和止血的，夹子会在体内留三十天以上。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ"
+   ],
+   "issue": "条目2依据2022年第25号公告将同类夹子装置按Ⅱ类管理，与条目1的Ⅲ类管理类别冲突，且该产品滞留时间超30天、用于标记",
+   "ask": "夹子是否可经内窥镜重复开合？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 5216
+  },
+  {
+   "case_id": "auto-173",
+   "question": "我们做的软件能在放疗前和治疗中核对设备参数、记录实际数据，确保治疗安全。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅲ",
+   "ms": 2304
+  },
+  {
+   "case_id": "auto-174",
+   "question": "我们做的是给血液净化时提供体外循环动力的设备，想咨询一下注册要求。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅲ",
+   "ms": 2233
+  },
+  {
+   "case_id": "auto-175",
+   "question": "我们做的是配合VR玩游戏帮精神分裂、抑郁症等心理疾病筛查评估和辅助治疗的软件。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ"
+   ],
+   "issue": "该产品配合VR以游戏形式用于心理疾病筛查评估和辅助治疗，与条目[1][6]中配合VR用于心理康复训练/辅助治疗的第二类软",
+   "ask": "游戏是否含独立筛查评估功能？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 5316
+  },
+  {
+   "case_id": "auto-176",
+   "question": "我们做的是打到大阴唇里填充萎缩的凝胶，一次性无菌的。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅲ",
+   "ms": 1805
+  },
+  {
+   "case_id": "auto-177",
+   "question": "我们做的是无菌一次性方形托架，用于介入手术中辅助导丝插入球囊中央孔。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅲ",
+   "ms": 2509
+  },
+  {
+   "case_id": "auto-178",
+   "question": "我们做的这个仪器配合芯片用，能绝对定量测核酸拷贝数，您看行吗？",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅲ",
+   "ms": 2330
+  },
+  {
+   "case_id": "auto-179",
+   "question": "我们做的是预灌在注射器里、打到真皮或皮下用来填充增容的材料。",
+   "gold": "Ⅲ",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "药械组合"
+   ],
+   "issue": "若产品含发挥药理学、免疫学或代谢作用的成分（如利多卡因、多聚核苷酸等），条目[9][10]显示可按药械组合产品属性界定，",
+   "ask": "产品是否含发挥药理等作用的药物成分？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 4467
+  },
+  {
+   "case_id": "auto-180",
+   "question": "我们做的是用3D打印帮医生在支架上精准定位开窗点的产品，用于术前辅助开窗。",
+   "gold": "非医疗器械",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 1663
+  },
+  {
+   "case_id": "auto-181",
+   "question": "我们做的是喷鼻子里遇水成凝胶、给成人和18个月以上孩子日常挡颗粒物的东西。",
+   "gold": "非医疗器械",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "药械组合"
+   ],
+   "issue": "该产品仅物理阻隔颗粒物、不添加药理成分，应属Ⅱ类；但若配方宣称含抗炎/抗病毒等药理作用成分，则可能按药械组合界定，检索条",
+   "ask": "产品里到底有没有加药理成分？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 3847
+  },
+  {
+   "case_id": "auto-182",
+   "question": "我们做的是含稀土元素的溶液，用来辅助治疗牛皮癣和皮炎，想咨询下监管要求。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": true,
+   "pair": [
+    "非医疗器械",
+    "非医疗器械"
+   ],
+   "issue": "记录[1]显示同类稀土元素溶液用于牛皮癣、皮炎辅助治疗，且通过抑制皮肤表面微生物发挥作用，但记录[6]将用于治疗皮炎的乳",
+   "ask": "产品主要作用机理是物理覆盖还是药理抗菌？",
+   "pred2": "非医疗器械",
+   "final": "非医疗器械",
+   "ms": 5231
+  },
+  {
+   "case_id": "auto-183",
+   "question": "我们做的是帮实验室按自己定的规则核对样本信息、合格后再传给分析仪，用来辅助样本质控和流程管理。",
+   "gold": "非医疗器械",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "非医疗器械"
+   ],
+   "issue": "该软件按用户自定规则核对样本信息后传给分析仪，属实验室质控及流程管理软件，未直接参与临床检验分析，可解释为不作为医疗器械",
+   "ask": "该软件是否影响检验结果或临床决策？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 5721
+  },
+  {
+   "case_id": "auto-184",
+   "question": "我们做的是一次性非无菌聚丙烯无纺布，用来包裹医院要灭菌的器械和物品。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 2642
+  },
+  {
+   "case_id": "auto-185",
+   "question": "我们做的是把神经康复评定量表电子化，供患者答题并统计结果，本身不具诊断治疗作用。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 2249
+  },
+  {
+   "case_id": "auto-186",
+   "question": "我们做的是帮长期卧床、偏瘫截瘫和老人洗澡的设备，想咨询下能不能按这个用途报。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": true,
+   "pair": [
+    "非医疗器械",
+    "非医疗器械"
+   ],
+   "issue": "条目[1]和[5]的移动式床边洗澡机明确为非医疗器械，与判定一致，但条目[4]卧床人员用床也属非医疗器械，未见其他管理类",
+   "ask": "产品是否直接接触人体皮肤或创面？",
+   "pred2": "非医疗器械",
+   "final": "非医疗器械",
+   "ms": 4390
+  },
+  {
+   "case_id": "auto-187",
+   "question": "我们做的是靠苯磺酸脱水让溃疡面形成保护膜，用来护理口腔创面、缓解疼痛的。",
+   "gold": "非医疗器械",
+   "pred1": "药械组合",
+   "ambiguous": true,
+   "pair": [
+    "药械组合",
+    "Ⅱ类医疗器械"
+   ],
+   "issue": "条目[2]因苯磺酸使黏膜组织变性、沉淀和凝固并形成坏死组织膜层而界定为药械组合，但该作用系化学脱水/酸蚀致组织变性，与条",
+   "ask": "苯磺酸是主要起药理作用吗？",
+   "pred2": "Ⅱ类医疗器械",
+   "final": "Ⅱ类医疗器械",
+   "ms": 4663
+  },
+  {
+   "case_id": "auto-188",
+   "question": "我们做的是涂在皮肤上保湿防脱皮的，用来护理皮炎湿疹和术后皮肤，不碰伤口，这算器械吗？",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 2035
+  },
+  {
+   "case_id": "auto-189",
+   "question": "我们做的是通过皮肤接触多种过敏原提取液来辅助诊断过敏性接触皮炎的产品。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": true,
+   "pair": [
+    "非医疗器械",
+    "非医疗器械"
+   ],
+   "issue": "同条目[2]已将“用于诊断过敏性接触性皮炎、检测过敏原”的过敏原诊断贴列为非医疗器械，其产品描述同样是通过皮肤接触过敏原",
+   "ask": "产品是贴敷还是针刺导入？",
+   "pred2": "非医疗器械",
+   "final": "非医疗器械",
+   "ms": 4342
+  },
+  {
+   "case_id": "auto-190",
+   "question": "我们做的是洗澡时罩住造口、靠硅胶圈密封防进水的防水腰带，想咨询一下怎么管理。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 2338
+  },
+  {
+   "case_id": "auto-191",
+   "question": "我们做的是让患者用嘴唇抿住再松开、锻炼唇肌力量和灵活性的训练器。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 2024
+  },
+  {
+   "case_id": "auto-192",
+   "question": "我们做的是一次性高分子材料产品，非无菌，只在口腔科技工室做杆卡时占位用。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 2058
+  },
+  {
+   "case_id": "auto-193",
+   "question": "我们做的是接牙科手机和治疗机软管、带水和气通路及电极灯的东西，这算医疗器械吗？",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": true,
+   "pair": [
+    "非医疗器械",
+    "视具体情况而定"
+   ],
+   "issue": "条目[1]对同类“软管连接件”明确：仅当直接销售给医疗器械生产企业、经处理后再销售给医疗机构时才不作为医疗器械管理；若直",
+   "ask": "该产品是否直接销售给医疗器械生产企业？",
+   "pred2": "视具体情况而定",
+   "final": "视具体情况而定",
+   "ms": 5229
+  },
+  {
+   "case_id": "auto-194",
+   "question": "我们做的是喷了铜锌颗粒的无纺布，给厂家做婴儿纸尿裤和卫生用品用，不算医疗用途。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 3123
+  },
+  {
+   "case_id": "auto-195",
+   "question": "我们做的是用舌头舔金属球来锻炼舌肌力量和灵活性的非无菌无源产品。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 2280
+  },
+  {
+   "case_id": "auto-196",
+   "question": "我们做的是通过水流清洁牙齿和牙缝等隐蔽部位、让口腔保持卫生的日常护理产品。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 2297
+  },
+  {
+   "case_id": "auto-197",
+   "question": "我们做的是用海盐等配成水洗鼻子的产品，用于鼻炎等鼻腔清洗，但没法证明成分没药理作用。",
+   "gold": "非医疗器械",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "非医疗器械"
+   ],
+   "issue": "若产品仅起物理冲洗清洁作用且无法证明成分具有药理作用，可能按不作为医疗器械管理，如[10]中鼻腔清洗液因仅缓解症状被判为",
+   "ask": "产品作用机制是否仅为物理冲洗？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 4709
+  },
+  {
+   "case_id": "auto-198",
+   "question": "我们做的是把高血压指南变成问卷给患者答，帮医生了解患者血压情况。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 3978
+  },
+  {
+   "case_id": "auto-199",
+   "question": "我们做的是无菌的瓶体加奶嘴，给重症监护室婴儿辅助给食或喂药用的。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 2023
+  },
+  {
+   "case_id": "auto-200",
+   "question": "我们做的是手术室里悬吊显示器、能调整角度移动的支架，想咨询下合规要求。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": true,
+   "pair": [
+    "非医疗器械",
+    "Ⅱ类医疗器械"
+   ],
+   "issue": "同样是手术室悬吊支架，条目[1]按“非医疗器械”界定，但条目[2][3]显示含电动支臂/悬吊系统的同类手术室支架按Ⅱ类管",
+   "ask": "支架含电动驱动或仅手动调节？",
+   "pred2": "非医疗器械",
+   "final": "非医疗器械",
+   "ms": 4589
+  },
+  {
+   "case_id": "auto-201",
+   "question": "我们做的是把石蜡块化成半凝固蜡饼的东西，只用来做蜡饼，不参与热敷治疗。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 2010
+  },
+  {
+   "case_id": "auto-202",
+   "question": "我们做的是术前混合抗癌药、术中经导管送肝癌血管的无菌产品，用于肝癌经动脉化疗。",
+   "gold": "非医疗器械",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ"
+   ],
+   "issue": "条目[1]的载药用微球与本品组成和用法高度相似（术前混合抗癌药、术中经导管送肝癌血管、不含抗癌药物），但其分类界定结果未",
+   "ask": "微球在体内是否降解？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 4660
+  },
+  {
+   "case_id": "auto-203",
+   "question": "我们做的是帮医生存影像、管参数，方便写报告和做研究，不干预手术也没有医疗用途。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 2812
+  },
+  {
+   "case_id": "auto-204",
+   "question": "我们做的这个只用于实验室内部质控和实验室间监测，不配合设备试剂用。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 1880
+  },
+  {
+   "case_id": "auto-205",
+   "question": "我们做的是用避光聚氯乙烯材料制成的可重复使用产品，用于医疗机构输液瓶袋避光。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 2040
+  },
+  {
+   "case_id": "auto-206",
+   "question": "我们做的是用虚拟现实游戏场景帮儿童和青少年训练注意力和记忆力的软件。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": true,
+   "pair": [
+    "非医疗器械",
+    "Ⅱ类"
+   ],
+   "issue": "条目[1]将同类虚拟现实脑功能训练软件明确列为非医疗器械，但条目[4][7][10]将针对认知障碍康复的认知功能训练软件",
+   "ask": "是否有医疗目的或用于认知障碍康复？",
+   "pred2": "非医疗器械",
+   "final": "非医疗器械",
+   "ms": 5475
+  },
+  {
+   "case_id": "auto-207",
+   "question": "我们做的是用铅黄铜和钛合金做的一次性非无菌小件，在口腔技工室做修复体时给可燃基底当支撑。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": true,
+   "pair": [
+    "非医疗器械",
+    "Ⅰ类医疗器械"
+   ],
+   "issue": "条目[1]以“不接触人体、仅技工室辅助支撑”判为非医疗器械，但同类口腔技工室用可燃基底支撑座若被视作口腔治疗辅助材料/器",
+   "ask": "该支撑座是否接触患者口腔？",
+   "pred2": "非医疗器械",
+   "final": "非医疗器械",
+   "ms": 5079
+  },
+  {
+   "case_id": "auto-208",
+   "question": "我们做的是一款给行动不便的老人、病人和儿童坐着上厕所用的无源产品，想确认是否可不作为医疗器械管理。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 1680
+  },
+  {
+   "case_id": "auto-209",
+   "question": "我们做的是用热风机加热石蜡、砭石等热熨材料的设备，想咨询下监管要求。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 1813
+  },
+  {
+   "case_id": "auto-210",
+   "question": "我们做的是透明质酸加盐类的水溶液，用来防护浅表创面。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": true,
+   "pair": [
+    "非医疗器械",
+    "Ⅱ类医疗器械"
+   ],
+   "issue": "条目[5][6][9]中液体成膜敷料用于浅表性创面护理按Ⅱ类管理，与本产品“透明质酸+盐类水溶液防护浅表创面”的组成和用",
+   "ask": "是否形成液体敷料成膜覆盖创面？",
+   "pred2": "非医疗器械",
+   "final": "非医疗器械",
+   "ms": 4770
+  },
+  {
+   "case_id": "auto-211",
+   "question": "我们做的是通过调节阴道酸碱度来降低精子活力、用于女性避孕的产品。",
+   "gold": "非医疗器械",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "非医疗器械"
+   ],
+   "issue": "该产品通过调节阴道pH值降低精子活力避孕，与2023年分类界定中“阴道避孕凝胶”通过调节pH值避孕被判为非医疗器械的产品",
+   "ask": "产品是否含药物成分？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 5279
+  },
+  {
+   "case_id": "auto-212",
+   "question": "我们做的是手术室里夹住并固定器械的，只用于夹持固定，不接触患者。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": true,
+   "pair": [
+    "非医疗器械",
+    "Ⅰ类医疗器械"
+   ],
+   "issue": "同为手术床导轨固定、关节臂支撑且不接触患者的“固定器”（条目4）被归为Ⅰ类患者位置固定辅助器械，与本产品结构用途高度相似",
+   "ask": "它是否夹持手术床导轨或关节臂？",
+   "pred2": "Ⅰ类医疗器械",
+   "final": "Ⅰ类医疗器械",
+   "ms": 4223
+  },
+  {
+   "case_id": "auto-213",
+   "question": "我们做的是加热后给内窥镜除雾、还能保持无菌的一次性套子，不接触患者。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 2538
+  },
+  {
+   "case_id": "auto-214",
+   "question": "我们做的是凝胶加包装，用来做皮肤护理的化妆品，想请教这样申报行不行。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": true,
+   "pair": [
+    "非医疗器械",
+    "化妆品"
+   ],
+   "issue": "检索条目[7]明确非创面皮肤表面护理不作为医疗器械管理，但若产品宣称用于创面或具有医疗用途，则可能被界定为Ⅱ类医疗器械（",
+   "ask": "产品是否宣称用于创面或具有医疗用途？",
+   "pred2": "化妆品",
+   "final": "化妆品",
+   "ms": 3774
+  },
+  {
+   "case_id": "auto-215",
+   "question": "我们做的是带瓶身瓶盖和滴口盖、里面放液化棒的产品，用来采集成年男性精液。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": true,
+   "pair": [
+    "非医疗器械",
+    "Ⅱ类医疗器械"
+   ],
+   "issue": "2018年分类界定曾将仅由瓶身、瓶盖、滴口盖、液化棒组成、仅用于采集成年男性精液的\"精子液化检测瓶\"判为非医疗器械，但2",
+   "ask": "液化棒是否直接接触精液并起反应？",
+   "pred2": "非医疗器械",
+   "final": "非医疗器械",
+   "ms": 5095
+  },
+  {
+   "case_id": "auto-216",
+   "question": "我们做的是玻璃瓶配软硅胶嘴，用来给早产儿喂奶的。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 2277
+  },
+  {
+   "case_id": "auto-217",
+   "question": "我们做的是能实时监控冷链设备温度湿度和运行状态、发现异常就报警的系统，想咨询合规要求。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 3238
+  },
+  {
+   "case_id": "auto-218",
+   "question": "我们做的是能移动的密闭舱，让医生和患者分开，用来门诊筛查和流调，避免交叉感染。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 2973
+  },
+  {
+   "case_id": "auto-219",
+   "question": "我们做的是带加热仓和面板的器具，用来香薰和御寒，不含艾草也不做灸疗，您看能不能不按医疗器械管？",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 1943
+  },
+  {
+   "case_id": "auto-220",
+   "question": "我们做的这个带扶手和导线，只是给连接的血压血糖等检测设备供电用，自己没检测功能，您看是不是不用按医疗器械管？",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 2167
+  },
+  {
+   "case_id": "auto-221",
+   "question": "我们做的是用刀片切断血袋管、让血液流进试管做配型试验的，这算不算医疗器械？",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 2872
+  },
+  {
+   "case_id": "auto-222",
+   "question": "我们做的是抗蛋白酶3抗体质控品，非定值，只用于临床实验室间检测过程的监测和控制。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 2385
+  },
+  {
+   "case_id": "auto-223",
+   "question": "我们做的是手术中冲洗或湿敷创面用的，能减轻炎症、减少渗血渗液、促进愈合。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 2540
+  },
+  {
+   "case_id": "auto-224",
+   "question": "我们做的是毛发中吗啡初筛的，只用于科研和禁毒，结果不作医疗诊断依据。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 2452
+  },
+  {
+   "case_id": "auto-225",
+   "question": "我们做的是不锈钢可重复使用的手柄带插入部位器械，用于口腔科技工室修整种植导板孔位、降低孔表面粗糙度。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": true,
+   "pair": [
+    "非医疗器械",
+    "Ⅰ类医疗器械"
+   ],
+   "issue": "若按“口腔科技工室用铰刀/修整器械”且接触但不进入人体、用于技工室模型加工来界定，可能被归为Ⅰ类口腔治疗器具，但与汇总中",
+   "ask": "该器械是否用于患者口腔内？",
+   "pred2": "非医疗器械",
+   "final": "非医疗器械",
+   "ms": 6427
+  },
+  {
+   "case_id": "auto-226",
+   "question": "我们做的是把公开的中医体质分类标准电子化，帮用户答题后自动判定体质分类。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 2730
+  },
+  {
+   "case_id": "auto-227",
+   "question": "我们做的是从实验室设备读取运行参数、帮人员查看设备状态的软件。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 2547
+  },
+  {
+   "case_id": "auto-228",
+   "question": "我们做的是家庭里健康人用来按摩消疲劳的东西，不治病的。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 2610
+  },
+  {
+   "case_id": "auto-229",
+   "question": "我们做的是主机带遥控器和贴片，靠振动和热敷给健康人按摩放松消除疲劳的，不算医疗吧？",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 2179
+  },
+  {
+   "case_id": "auto-230",
+   "question": "我们做的是用来保存单采或全血分离血小板的液体，想请教是否符合要求。",
+   "gold": "非医疗器械",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ"
+   ],
+   "issue": "条目[10]将用于血液制品低温储存转运的设备判为Ⅱ类，而本产品为血小板保存液，与条目[1]同类应属Ⅲ类，但保存液与储存设",
+   "ask": "保存液是否直接接触人体血液循环？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 4768
+  },
+  {
+   "case_id": "auto-231",
+   "question": "我们做的是用摄像头拍人脸建三维模型帮顾客看戴眼镜效果的设备，只用来帮人选合适镜架。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 1533
+  },
+  {
+   "case_id": "auto-232",
+   "question": "我们做的是连接取卵针和负压泵、靠负压把卵子吸进采卵管的一次性无菌管，不含乳胶和PVC。",
+   "gold": "非医疗器械",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "非医疗器械"
+   ],
+   "issue": "同类的“人类辅助生殖技术用真空连接管”及“体外辅助生殖专用塑料耗材（采卵管等）”均被界定为非医疗器械，与按Ⅱ类管理的取卵",
+   "ask": "该管是否接触卵子或仅输送负压？",
+   "pred2": "非医疗器械",
+   "final": "非医疗器械",
+   "ms": 4210
+  },
+  {
+   "case_id": "auto-233",
+   "question": "我们做的是拆装骨科超声动力系统延长杆和刀头用的工具，不接触患者。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 1862
+  },
+  {
+   "case_id": "auto-234",
+   "question": "我们做的是贴牙上不超过30分钟、靠过氧化氢去牙渍美白牙齿的产品，想咨询是否按器械管理。",
+   "gold": "非医疗器械",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "非医疗器械"
+   ],
+   "issue": "若产品过氧化氢含量（以H2O2计）不超过3.0%且不和冷光美白仪配合使用，按既往分类界定可归为非医疗器械（如2021年牙",
+   "ask": "产品过氧化氢含量是否超过3.0%？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 4085
+  },
+  {
+   "case_id": "auto-235",
+   "question": "我们做的是用果酸剥脱结合中和来辅助改善皮肤老化、色斑和痤疮问题的产品。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": true,
+   "pair": [
+    "非医疗器械",
+    "按第二类医疗器械管理"
+   ],
+   "issue": "同为果酸剥脱加中和的“皮肤剥脱液及中和液”在2021年分类界定中曾按第二类医疗器械管理（分类编码14-10），2024年",
+   "ask": "2024年分类界定结果是什么？",
+   "pred2": "按第二类医疗器械管理",
+   "final": "按第二类医疗器械管理",
+   "ms": 4130
+  },
+  {
+   "case_id": "auto-236",
+   "question": "我们做的是在诊疗室或手术室给医生撑腰的椅子，高度电动调，其他靠手动。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 1687
+  },
+  {
+   "case_id": "auto-237",
+   "question": "我们做的是一款用眼睛操控电脑的设备，帮脑瘫、渐冻症等患者实现沟通等非医疗用途。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 2232
+  },
+  {
+   "case_id": "auto-238",
+   "question": "我们做的是用高分子材料制成的防水保护套，用于中心静脉置管后肘臂腿伤口的防水保护。",
+   "gold": "非医疗器械",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 2137
+  },
+  {
+   "case_id": "auto-239",
+   "question": "我们做的是硬质海绵垫，人躺下不会陷进去，用来帮术后或长期卧床的人预防压疮。",
+   "gold": "非医疗器械",
+   "pred1": "Ⅰ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅰ",
+    "非医疗器械"
+   ],
+   "issue": "同类硬质/泡沫海绵防压疮垫在2019年分类界定中既有按Ⅰ类管理的条目，也有条目认为其类似日常用品、不具有预防压疮功能而按",
+   "ask": "产品是否有预防压疮的临床验证证据？",
+   "pred2": "Ⅰ",
+   "final": "Ⅰ",
+   "ms": 6274
+  },
+  {
+   "case_id": "auto-240",
+   "question": "我们做的是贴伤口上隔离保护、吸收渗液，还能抑菌促愈合的，用于非慢性创面护理。",
+   "gold": "药械组合",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ"
+   ],
+   "issue": "产品含多肽等抑菌促愈合活性成分并声称药理作用（抑菌、促愈合），超出按Ⅰ类管理的创口贴等物理屏障类敷料范畴，可能应按Ⅱ类创",
+   "ask": "抑菌促愈合是药理作用还是物理作用？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 4417
+  },
+  {
+   "case_id": "auto-241",
+   "question": "我们做的是涂在痔疮伤口上形成保护膜隔离创面的凝胶，但没法证明里面的苯甲醇没起抗菌作用。",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": true,
+   "pair": [
+    "药械组合",
+    "第二类医疗器械"
+   ],
+   "issue": "检索条目[1]因无法证明苯甲醇未发挥抗菌作用而判为药械组合，但条目[3]同类肛肠创面凝胶仅按Ⅱ类医疗器械管理，条目[2]",
+   "ask": "苯甲醇在产品中起主要作用吗？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 4951
+  },
+  {
+   "case_id": "auto-242",
+   "question": "我们做的是烧烫伤创面用的无菌敷料，能抑菌促愈合。",
+   "gold": "药械组合",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "药械组合"
+   ],
+   "issue": "产品声称抑菌促愈合，若抑菌作用由药物成分提供而非仅物理屏障，则可能按药械组合产品界定，如条目[2]所示。",
+   "ask": "抑菌作用由药物成分还是物理屏障提供？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 6037
+  },
+  {
+   "case_id": "auto-243",
+   "question": "我们做的口罩内外层带抗菌抗病毒涂层，中间过滤层，用在普通卫生护理和基本防护。",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": true,
+   "pair": [
+    "药械组合",
+    "Ⅱ类医疗器械"
+   ],
+   "issue": "产品虽含抗菌抗病毒涂层，但若涂层仅起辅助作用、主要用途仍为物理阻隔防护（如条目6、9的外科口罩/医用口罩按Ⅱ类管理），则",
+   "ask": "涂层是否仅辅助而主要靠物理过滤？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 5655
+  },
+  {
+   "case_id": "auto-244",
+   "question": "我们做的产品用在皮肤粘膜小创面起物理保护作用，但没法证明壳聚糖没有抗菌作用。",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": true,
+   "pair": [
+    "药械组合",
+    "Ⅱ类医疗器械"
+   ],
+   "issue": "若声称仅物理屏障且不能证明壳聚糖抗菌作用，同类“壳聚糖护脐带”因抑菌试验阴性按Ⅱ类管理，与药械组合界定存在分歧。",
+   "ask": "壳聚糖在该产品中起何作用？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 5971
+  },
+  {
+   "case_id": "auto-245",
+   "question": "我们做的是敷在非慢性创面上保湿补水、缓解疼痛、帮助愈合的护理产品。",
+   "gold": "药械组合",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 1936
+  },
+  {
+   "case_id": "auto-246",
+   "question": "我们做的是给临床医生有创操作时戴的，能挡住病菌和颗粒物，还靠铜抑菌。",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": true,
+   "pair": [
+    "药械组合",
+    "Ⅱ类医疗器械"
+   ],
+   "issue": "若铜仅作为无纺布材料成分起物理阻隔作用、未以药理/抗菌作用为主要预期用途，可参照普通医用外科口罩按Ⅱ类管理。",
+   "ask": "铜是仅物理阻隔，还是起抗菌主作用？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 5747
+  },
+  {
+   "case_id": "auto-247",
+   "question": "我们做的是含叶酸和银的纱布，用于感染、溃疡、烧烫伤等创面护理，想咨询合规性。",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "药械组合",
+   "ms": 1942
+  },
+  {
+   "case_id": "auto-248",
+   "question": "我们做的是用在阴道里隔绝细菌、缓解炎症、帮助修复的凝胶产品，想咨询一下这类用途怎么申报。",
+   "gold": "药械组合",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2660
+  },
+  {
+   "case_id": "auto-249",
+   "question": "我们做的是用于辅助治疗阴道炎和促进宫颈创面愈合的一次性非无菌产品。",
+   "gold": "药械组合",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅲ类医疗器械"
+   ],
+   "issue": "该产品含无机抗菌剂且通过活性氧杀灭细菌，属于药械组合产品，条目[1]中类似含无机抗菌剂的宫颈治疗支架按药械组合（通常Ⅲ类",
+   "ask": "无机抗菌剂是起主要治疗作用吗？",
+   "pred2": "Ⅲ类医疗器械",
+   "final": "Ⅲ类医疗器械",
+   "ms": 5030
+  },
+  {
+   "case_id": "auto-250",
+   "question": "我们做的这个喷在手术切口上能形成保护膜并靠成分抗菌防感染，用于术后一类二类切口护理。",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "药械组合",
+   "ms": 2596
+  },
+  {
+   "case_id": "auto-251",
+   "question": "我们做的是打颈纹额纹的填充针，里面加了麻药和甘露醇来防成分降解，您看合规吗？",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": true,
+   "pair": [
+    "药械组合",
+    "非医疗器械"
+   ],
+   "issue": "同为含活性成分的注射填充产品，条目[2]因成分仅起保湿/延缓降解作用被归为非医疗器械，而本产品含局麻药利多卡因和甘露醇且",
+   "ask": "局麻药是起局部麻醉作用吗？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 6965
+  },
+  {
+   "case_id": "auto-252",
+   "question": "我们做的是供非手术外医疗环境医务人员佩戴、能抗菌抗病毒的口罩。",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": true,
+   "pair": [
+    "药械组合",
+    "Ⅱ类医疗器械"
+   ],
+   "issue": "产品描述为非手术外医疗环境佩戴的抗菌抗病毒口罩，若仅以物理阻隔为主要作用、抗菌抗病毒成分未明确发挥药理学/免疫学作用或未",
+   "ask": "抗菌抗病毒成分是否发挥药理作用？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 4973
+  },
+  {
+   "case_id": "auto-253",
+   "question": "我们做的是打回眼内暂时撑住视网膜、帮严重脱离后贴合恢复的产品。",
+   "gold": "药械组合",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "药械组合"
+   ],
+   "issue": "条目[1]明确将同类“眼科手术用水凝胶”按药械组合程序界定管理属性，而该产品为眼内暂时填充用凝胶，可能含药物成分并起药理",
+   "ask": "是否含药物且起主要药理作用？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 5266
+  },
+  {
+   "case_id": "auto-254",
+   "question": "我们做的这个植入物靠撑开和肌肉张力稳住脊柱，表面涂层还能杀菌，想请教您看这样报用途行不行。",
+   "gold": "药械组合",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ"
+   ],
+   "issue": "条目[3]脊柱椎体间固定/置换系统按Ⅱ类管理，而该产品为椎间融合器，其撑开稳定脊柱的用途与条目[1]所述Ⅲ类情形高度相似",
+   "ask": "产品是否与椎体直接接触融合？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 5718
+  },
+  {
+   "case_id": "auto-255",
+   "question": "我们做的这款液体是涂在小创口、擦伤上护理皮肤用的，但没法证明里面的成分没有抗菌作用，想请教您这该怎么算？",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": true,
+   "pair": [
+    "药械组合",
+    "Ⅱ类医疗器械"
+   ],
+   "issue": "条目[7]将无法证明成分不具抗菌作用的同类液体伤口敷料按药械组合管理，而条目[2]-[6]、[8]-[10]将用途相同的",
+   "ask": "该产品是否直接接触血液循环系统？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 4559
+  },
+  {
+   "case_id": "auto-256",
+   "question": "我们做的口罩带氧化铜能抑菌抗病毒，给有呼吸道传染风险的医生做有创操作时用，这能算无菌吗？",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": true,
+   "pair": [
+    "药械组合",
+    "无菌医疗器械"
+   ],
+   "issue": "检索条目未明确该产品是否经灭菌处理，若实际为无菌提供则可能按无菌医疗器械管理，而非仅因含氧化铜抑菌成分归为药械组合",
+   "ask": "该口罩出厂时是否经灭菌且标注无菌？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 4603
+  },
+  {
+   "case_id": "auto-257",
+   "question": "我们做的是口腔和创面用的，靠形成保护层止疼，还说能促进愈合，这用途该怎么报？",
+   "gold": "药械组合",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅰ"
+   ],
+   "issue": "若不声称促进愈合、仅起物理屏障和临时包扎作用，浅表创面用的成膜保护产品可按第一类创口贴类管理，与Ⅱ类的分歧在于是否声称促",
+   "ask": "产品是否明确声称“促进愈合”？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 5213
+  },
+  {
+   "case_id": "auto-258",
+   "question": "我们做的是用植物材料吸药水后敷伤口，帮助愈合和护理静脉溃疡的产品，想咨询怎么申报。",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "药械组合",
+   "ms": 1703
+  },
+  {
+   "case_id": "auto-259",
+   "question": "我们做的是能帮浅表创面隔绝细菌、促进修复的护理产品，但没法证明成分没有药理作用。",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": true,
+   "pair": [
+    "药械组合",
+    "第二类医疗器械"
+   ],
+   "issue": "产品预期用途为浅表创面护理、物理屏障，与条目[1][5][9][10]中按Ⅱ类医疗器械管理的液体/喷剂成膜敷料情形一致；",
+   "ask": "产品是否直接接触破损皮肤或创面？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 4673
+  },
+  {
+   "case_id": "auto-260",
+   "question": "我们做的产品既有医疗器械作用又有药物作用，按主要作用来定是药品还是器械，您看我们这用途该走哪边申报？",
+   "gold": "药械组合",
+   "pred1": "信息不足",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "信息不足",
+   "ms": 2501
+  },
+  {
+   "case_id": "auto-261",
+   "question": "我们做的是给临床医生有创操作时戴的，里头光触媒能抗菌抗病毒。",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": true,
+   "pair": [
+    "药械组合",
+    "Ⅱ类医疗器械"
+   ],
+   "issue": "若产品仅以物理屏障阻隔病原体、光触媒抗菌抗病毒作用未被认可为主要机制，则可按Ⅱ类医疗器械管理（参见条目5、9），而非必须",
+   "ask": "光触媒抗菌作用有注册检验报告吗？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 5320
+  },
+  {
+   "case_id": "auto-262",
+   "question": "我们做的是能清洁湿润伤口、软化结痂并辅助抗菌的护理产品，用于急性慢性伤口和烧伤。",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": true,
+   "pair": [
+    "药械组合",
+    "药械组合"
+   ],
+   "issue": "产品既通过形成湿性环境、软化结痂起物理护理作用，又声称辅助抗菌，物理作用与药理/抗菌作用并存，可能按药械组合界定，也可能",
+   "ask": "抗菌作用靠药物还是仅物理屏障？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 4571
+  },
+  {
+   "case_id": "auto-263",
+   "question": "我们做的这个产品能封住牙本质小管防牙过敏，还能抑菌防蛀牙，您看这样报行吗？",
+   "gold": "药械组合",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅲ类"
+   ],
+   "issue": "产品同时声称防牙过敏（Ⅱ类脱敏剂）和抑菌防蛀（可能涉及药理学作用或防龋材料），若抑菌成分发挥药理作用则可能按药械组合或Ⅲ",
+   "ask": "抑菌成分是靠药理作用还是物理封闭？",
+   "pred2": "Ⅲ类",
+   "final": "Ⅲ类",
+   "ms": 5000
+  },
+  {
+   "case_id": "auto-264",
+   "question": "我们做的是打真皮层补水改善皮肤状态的无菌针剂。",
+   "gold": "药械组合",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "药械组合"
+   ],
+   "issue": "若产品除贻贝粘蛋白外还含其他发挥药理作用的成分（如核酸类物质），可能按药械组合产品判定程序界定，而非直接归为Ⅲ类。",
+   "ask": "除贻贝粘蛋白外，是否含其他药理活性成分？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 4240
+  },
+  {
+   "case_id": "auto-265",
+   "question": "我们做的产品用在非慢性浅表创面上，既能形成薄膜起物理阻隔，又含成分起药理作用，这样算器械还是药品？",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": true,
+   "pair": [
+    "药械组合",
+    "Ⅱ类医疗器械"
+   ],
+   "issue": "检索条目[4][5][6][9][10]显示，仅通过形成保护层起物理屏障作用、用于非慢性浅表创面的液体成膜敷料，可按Ⅱ类",
+   "ask": "药理作用成分是否为主要作用方式？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 4627
+  },
+  {
+   "case_id": "auto-266",
+   "question": "我们做的是涂在肛门和肛周创面上护理用的膏，想咨询下能不能算非无菌提供。",
+   "gold": "药械组合",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅰ"
+   ],
+   "issue": "检索条目[2]中用于肛门局部的痔疮软膏给药器按Ⅰ类管理，而本产品为肛周创面护理膏，若仅起物理屏障作用且不接触慢性创面，可",
+   "ask": "产品是否无菌提供？",
+   "pred2": "Ⅰ",
+   "final": "Ⅰ",
+   "ms": 5880
+  },
+  {
+   "case_id": "auto-267",
+   "question": "我们做的是给新生儿护脐用的，结扎后保护残端、止血抑菌促愈合。",
+   "gold": "药械组合",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 1755
+  },
+  {
+   "case_id": "auto-268",
+   "question": "我们做的是含药成分的润滑产品，用在器械进入人体自然腔道时润滑。",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": true,
+   "pair": [
+    "药械组合",
+    "Ⅱ类医疗器械"
+   ],
+   "issue": "条目1明确含药润滑剂按药械组合管理，但条目4/7指出器械进入腔道润滑的体腔器械导入润滑剂可视情况按Ⅱ类医疗器械（分类编码",
+   "ask": "药品起主要作用还是润滑起主要作用？",
+   "pred2": "Ⅱ类医疗器械",
+   "final": "Ⅱ类医疗器械",
+   "ms": 4773
+  },
+  {
+   "case_id": "auto-269",
+   "question": "我们做的是能挡住飞沫颗粒、口罩布还能杀病菌的一次性防护用品，主要给医务人员戴。",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "药械组合",
+   "ms": 1780
+  },
+  {
+   "case_id": "auto-270",
+   "question": "我们做的是贴口腔溃疡的，靠凝胶隔离止痛，但没法证明成分没药理作用。",
+   "gold": "药械组合",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": true,
+   "pair": [
+    "不单独作为医疗器械管理",
+    "药械组合"
+   ],
+   "issue": "若凝胶成分无法证明无药理作用，则不能按医疗器械管理，可能按药械组合产品判定",
+   "ask": "凝胶成分的药理作用是否已验证？",
+   "pred2": "不单独作为医疗器械管理",
+   "final": "不单独作为医疗器械管理",
+   "ms": 4511
+  },
+  {
+   "case_id": "auto-271",
+   "question": "我们做的这个溶液要跟其他东西混合后灌注心脏，用于手术中让心脏停跳和保护心肌，里面有利多卡因，这算器械还是药？",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": true,
+   "pair": [
+    "药械组合",
+    "器械"
+   ],
+   "issue": "同为心脏停跳液且目录中按Ⅲ类器械管理，但本品含利多卡因发挥药理作用，药械组合属性使“药品”与“器械”两种类别均有依据。",
+   "ask": "利多卡因是否主要起药理治疗作用？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 5159
+  },
+  {
+   "case_id": "auto-272",
+   "question": "我们做的是用于阴道和宫颈粘膜防护、改善妇科炎症症状的一次性凝胶产品。",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": true,
+   "pair": [
+    "药械组合",
+    "非医疗器械"
+   ],
+   "issue": "该产品仅通过凝胶形成物理屏障防护粘膜、改善炎症症状，若成分不具有药理学作用则可能按非医疗器械管理（参考记录4565乳酸阴",
+   "ask": "产品成分是否有药理学作用？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 5536
+  },
+  {
+   "case_id": "auto-273",
+   "question": "我们做的是带药的一次性无菌导尿管，从膀胱经尿道把尿引到体外集尿袋里。",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": true,
+   "pair": [
+    "药械组合",
+    "Ⅱ类医疗器械"
+   ],
+   "issue": "检索条目[1]因产品“含药物成分”将其归为药械组合，但若该药物仅起润滑等辅助作用而非主要作用，条目[4]显示普通含药导尿",
+   "ask": "药物是否仅起润滑等辅助作用？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 5207
+  },
+  {
+   "case_id": "auto-274",
+   "question": "我们做的是带药能撑开血管或植入物的管子，想请教注册要求。",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": true,
+   "pair": [
+    "药械组合",
+    "Ⅱ类医疗器械"
+   ],
+   "issue": "条目[2]带药球囊扩张导管同为含药、用于扩张血管或植入物的器械，却按药械组合管理；而条目[5]扩张器（Ⅱ类）仅描述机械扩",
+   "ask": "药物主要是辅助扩张还是治疗病变？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 6840
+  },
+  {
+   "case_id": "auto-275",
+   "question": "我们做的是打面部真皮层的无菌复合溶液，用来补水改善皮肤状态。",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "药械组合",
+   "ms": 1716
+  },
+  {
+   "case_id": "auto-276",
+   "question": "我们做的是清洗鼻腔用的喷雾，靠海水冲洗和几丁聚醣抗菌，用于鼻炎等鼻腔疾病清洗。",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "药械组合",
+   "ms": 2649
+  },
+  {
+   "case_id": "auto-277",
+   "question": "我们做的产品能形成保护层起屏障作用，还有抑菌报告，用于小创口擦伤等护理。",
+   "gold": "药械组合",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "药械组合"
+   ],
+   "issue": "产品含抑菌报告，若抑菌成分接触创面发挥药理作用，可能按药械组合界定，而不仅按Ⅱ类物理屏障敷料管理。",
+   "ask": "抑菌成分是否接触创面并发挥药理作用？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 4745
+  },
+  {
+   "case_id": "auto-278",
+   "question": "我们做的是妇科阴道炎用药后吸附分泌物、防止复发并辅助痊愈的产品。",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": true,
+   "pair": [
+    "药械组合",
+    "Ⅱ类医疗器械"
+   ],
+   "issue": "该产品不含药物成分、仅通过物理吸附分泌物起辅助作用时，可归入18-14阴道填塞材料按Ⅱ类医疗器械管理，与按药械组合判定的",
+   "ask": "产品是否含药物成分？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 4979
+  },
+  {
+   "case_id": "auto-279",
+   "question": "我们做的湿棉片含苯氧乙醇等成分，用于清洁皮肤创面，这算有药理作用吗？",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "药械组合",
+   "ms": 2609
+  },
+  {
+   "case_id": "auto-280",
+   "question": "我们做的是用于宫颈、阴道创面护理和促进溃疡愈合的产品。",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": true,
+   "pair": [
+    "药械组合",
+    "Ⅱ类医疗器械"
+   ],
+   "issue": "条目[1]将“壳聚糖妇用凝胶敷料”归为药械组合，但同类“宫颈、阴道创面护理、促进溃疡愈合”用途的产品若仅起物理屏障/保湿",
+   "ask": "产品是否含发挥药理作用的活性药物成分？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 5031
+  },
+  {
+   "case_id": "auto-281",
+   "question": "我们做的是用吸收垫吸药水后护理急慢性创面和静脉溃疡的产品，想咨询合规问题。",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": true,
+   "pair": [
+    "药械组合",
+    "Ⅱ类医疗器械"
+   ],
+   "issue": "若吸收垫所吸药水仅起清洁/保湿等非药理作用且产品整体不发挥药理学、免疫学或代谢作用，可按Ⅱ类创面敷料管理；但若药水含药理",
+   "ask": "药水是否含起药理作用的成分？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 5983
+  },
+  {
+   "case_id": "auto-282",
+   "question": "我们做的是用聚乳酸纤维膜加聚赖氨酸，用来修补脑膜并防周围组织感染。",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": true,
+   "pair": [
+    "药械组合",
+    "Ⅲ类医疗器械"
+   ],
+   "issue": "条目[1]明确将含聚赖氨酸的可吸收硬脑（脊）膜修复材料按药械组合管理，但若主张聚赖氨酸仅起辅助抗菌作用、产品主体为可吸收",
+   "ask": "聚赖氨酸是起主要抗菌作用吗？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 4431
+  },
+  {
+   "case_id": "auto-283",
+   "question": "我们做的是放眼球后面用射线治黄斑病变的辅助治疗器械。",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "药械组合",
+   "ms": 3089
+  },
+  {
+   "case_id": "auto-284",
+   "question": "我们做的是放血管里撑开管腔、治动脉硬化狭窄堵塞的植入物。",
+   "gold": "药械组合",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "药械组合"
+   ],
+   "issue": "若支架含药物涂层或可吸收药物洗脱结构，可按药械组合管理；若为无药物的裸金属支架，则按Ⅲ类无源植入器械管理，条目[1]与[",
+   "ask": "支架是否含药物涂层或药物？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 4739
+  },
+  {
+   "case_id": "auto-285",
+   "question": "我们做的是用在新鲜创面上隔离防感染、帮助愈合的溶液。",
+   "gold": "药械组合",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅲ类"
+   ],
+   "issue": "产品用于新鲜创面并含抗菌作用（羟丙基葡聚多糖吸附抑制微生物），若主张抗菌/防感染为主要作用，可能按含抗菌成分的创面敷料归",
+   "ask": "抗菌作用是主要作用还是辅助作用？",
+   "pred2": "Ⅲ类",
+   "final": "Ⅲ类",
+   "ms": 4951
+  },
+  {
+   "case_id": "auto-286",
+   "question": "我们做的这个能过滤隔离，供手术室外或急救时挡体液飞溅，还带抗菌作用。",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": true,
+   "pair": [
+    "药械组合",
+    "Ⅱ类医疗器械"
+   ],
+   "issue": "条目[2]“加隔离面罩的医用口罩”具有相同结构（口罩+防护面罩）和相同预期用途（阻隔体液飞溅），但按Ⅱ类医疗器械管理；条",
+   "ask": "抗菌作用是否仅指口罩部分？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 4997
+  },
+  {
+   "case_id": "auto-287",
+   "question": "我们做的是涂在伤口上促愈合、防疤防色沉还能被吸收的产品，这用途能按械字号报吗？",
+   "gold": "药械组合",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ"
+   ],
+   "issue": "产品含促愈合、防疤防色沉等药理作用成分且可被吸收，若成分作用可证明主要为物理屏障而非药理、吸收途径按Ⅱ类可解释，但检索条",
+   "ask": "成分是起物理屏障还是药理作用？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 6397
+  },
+  {
+   "case_id": "auto-288",
+   "question": "我们做的是能吸渗液、靠多肽抗菌帮慢性创面愈合的覆盖产品，这算药还是器械？",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": true,
+   "pair": [
+    "药械组合",
+    "药械组合（按药械组合产品判定程序界定）"
+   ],
+   "issue": "产品既通过覆盖、吸渗液、营造湿性环境发挥器械作用，又利用多肽的抗菌药理作用减少感染，兼具械与药双重作用，与条目[1][2",
+   "ask": "多肽抗菌作用是主要作用还是辅助作用？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 4709
+  },
+  {
+   "case_id": "auto-289",
+   "question": "我们做的是粘胶纤维浸蜂蜜精油敷料，用于创面护理促愈合。",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": true,
+   "pair": [
+    "药械组合",
+    "非医疗器械"
+   ],
+   "issue": "同为含蜂蜜创面敷料，[4]创面用蜂蜜凝胶因无法证明蜂蜜不具有药理学作用被判为非医疗器械，而[1][2]同类含蜂蜜敷料被判",
+   "ask": "蜂蜜在本产品中是否起药理作用？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 5370
+  },
+  {
+   "case_id": "auto-290",
+   "question": "我们做的是涂在直肠破损处形成保护膜、减少排便疼痛和痔疮不适的产品，但没法证明成分没有药理作用。",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": true,
+   "pair": [
+    "药械组合",
+    "按第二类医疗器械管理"
+   ],
+   "issue": "检索条目[7]将同类肛肠黏膜创面/痔疮创面护理凝胶按Ⅱ类管理，而[2]因无法证明苯甲醇未发挥抗菌作用按药械组合管理，本品",
+   "ask": "成分是否发挥药理作用？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 5469
+  },
+  {
+   "case_id": "auto-291",
+   "question": "我们做的是打面部中层到深层、用来改善中重度鼻唇沟皱纹的。",
+   "gold": "药械组合",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "药械组合"
+   ],
+   "issue": "条目[2]和[8]中用于真皮深层/皮下注射填充纠正中重度鼻唇沟皱纹、含盐酸利多卡因等成分的类似产品被界定为药械组合，与本",
+   "ask": "产品含盐酸利多卡因等药物成分吗？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 4310
+  },
+  {
+   "case_id": "auto-292",
+   "question": "我们这款产品用于浅表创面防护、提供湿性愈合环境，但里面的褐藻寡糖还起抗炎作用，这算器械还是药？",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": true,
+   "pair": [
+    "药械组合",
+    "第二类医疗器械"
+   ],
+   "issue": "若褐藻寡糖仅起物理保湿成膜作用、抗炎声称不被认可，则按Ⅱ类创面敷料管理（如条目4、7），分歧点在于褐藻寡糖的抗炎作用是药",
+   "ask": "褐藻寡糖抗炎是药理作用吗？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 5688
+  },
+  {
+   "case_id": "auto-293",
+   "question": "我们做的是填充四肢、脊柱和骨盆骨缺损的，用盐水和骨粉混合后填进去。",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "药械组合",
+   "ms": 1747
+  },
+  {
+   "case_id": "auto-294",
+   "question": "我们做的是用在骨头手术里固定植入物、填充骨头缺损还能辅助防感染的产品，想请教一下合规要求。",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": true,
+   "pair": [
+    "药械组合",
+    "Ⅲ类医疗器械"
+   ],
+   "issue": "条目[1]将含生理盐水混合使用的骨填充材料按药械组合管理，但若产品本身仅起物理填充/固定作用且不含药物活性成分，也可按条",
+   "ask": "产品是否含药物活性成分？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 4016
+  },
+  {
+   "case_id": "auto-295",
+   "question": "我们做的产品用于甲状腺及普外术后增生性疤痕的辅助改善和预防，但植物角鲨烷是否起药理作用无法证明。",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": true,
+   "pair": [
+    "药械组合",
+    "非医疗器械"
+   ],
+   "issue": "若无法证明植物角鲨烷发挥药理作用，则产品可能仅通过硅酮物理屏障和保湿作用起效，类似条目[9]保湿霜按非医疗器械管理。",
+   "ask": "植物角鲨烷在产品中具体起什么作用？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 5116
+  },
+  {
+   "case_id": "auto-296",
+   "question": "我们做的这个产品是清洗鼻腔、保持湿润，用于鼻炎患者清洁用的。",
+   "gold": "药械组合",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2323
+  },
+  {
+   "case_id": "auto-297",
+   "question": "我们做的是房事前放进女性体内、靠形成保护膜和改变精液状态来避孕的产品。",
+   "gold": "药械组合",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2292
+  },
+  {
+   "case_id": "auto-298",
+   "question": "我们做的这个带抗菌涂层，是通过膀胱压力把尿液经尿道导出，防止感染用的。",
+   "gold": "药械组合",
+   "pred1": "药械组合",
+   "ambiguous": true,
+   "pair": [
+    "药械组合",
+    "Ⅲ类医疗器械"
+   ],
+   "issue": "同样是带抗菌涂层的导尿管，记录4990按药械组合管理，但记录7和10中带抑菌涂层的导尿管按Ⅲ类医疗器械管理，涂层是抗菌作",
+   "ask": "涂层是否以抗菌为主要作用方式？",
+   "pred2": "Ⅲ类医疗器械",
+   "final": "Ⅲ类医疗器械",
+   "ms": 4913
+  },
+  {
+   "case_id": "auto-299",
+   "question": "我们做的是喷在浅表伤口上帮愈合的，这算药品还是器械？",
+   "gold": "药械组合",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 1723
+  },
+  {
+   "case_id": "auto-300",
+   "question": "我们做的是装在牵开器上、给心胸手术固定组织定位的重复用器械，想问问怎么管理。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅰ"
+   ],
+   "issue": "条目[4]将同类“牵开器支撑臂”（心胸外科手术连接到牵开器上用于组织固定及解剖结构定位、可重复使用）界定为Ⅰ类，与Ⅱ类判",
+   "ask": "是否接触中枢神经或用于植入？",
+   "pred2": "Ⅰ",
+   "final": "Ⅰ",
+   "ms": 4781
+  },
+  {
+   "case_id": "auto-301",
+   "question": "我们做的是配合鼻阻力仪测鼻腔气体流量和压力的耗材，想咨询注册要求。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 2884
+  },
+  {
+   "case_id": "auto-302",
+   "question": "我们做的是配合吸乳器用的，用来产后护理乳房、收集乳液和矫正乳头。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "非医疗器械"
+   ],
+   "issue": "条目[4]哺乳用乳头保护罩用于保护乳头、缓解哺乳疼痛，被界定为非医疗器械，而本产品同样用于产后乳房护理和乳头矫正，仅配合",
+   "ask": "产品是否直接接触乳头并起矫正治疗作用？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 5230
+  },
+  {
+   "case_id": "auto-303",
+   "question": "我们做的是配合内窥镜等手术冲洗吸引用的软管装置，不直接接触患者。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": true,
+   "pair": [
+    "不单独作为医疗器械管理",
+    "Ⅰ类医疗器械"
+   ],
+   "issue": "同为不直接接触患者、配合主机使用的体外引流/吸引软管，[4]按Ⅰ类管理，而本产品被判为不单独作为医疗器械管理，两者界定口",
+   "ask": "该软管是否接入负压/动力主机形成吸引功能？",
+   "pred2": "不单独作为医疗器械管理",
+   "final": "不单独作为医疗器械管理",
+   "ms": 5090
+  },
+  {
+   "case_id": "auto-304",
+   "question": "我们做的是配合呼吸机监测呼气中二氧化碳浓度和呼吸频率的东西。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "不单独作为医疗器械管理"
+   ],
+   "issue": "[1]中与呼吸机配合监测呼气二氧化碳浓度和呼吸频率的“二氧化碳流量传感器套件”被界定为不单独作为医疗器械管理，与Ⅱ类判定",
+   "ask": "它是否与呼吸机组成同一注册单元？",
+   "pred2": "不单独作为医疗器械管理",
+   "final": "不单独作为医疗器械管理",
+   "ms": 4954
+  },
+  {
+   "case_id": "auto-305",
+   "question": "我们做的是配套妇科治疗仪用的高分子一次性管状物，用于阴道冲洗和雾化。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": true,
+   "pair": [
+    "不单独作为医疗器械管理",
+    "Ⅱ类医疗器械"
+   ],
+   "issue": "若按“阴道洗涤器/给药器”目录条目（07）或妇科物理治疗器械（含冲洗、治疗组件）解释，该一次性高分子管状物作为妇科治疗仪",
+   "ask": "该管状物是否主动输送药液或产生雾化？",
+   "pred2": "不单独作为医疗器械管理",
+   "final": "不单独作为医疗器械管理",
+   "ms": 6180
+  },
+  {
+   "case_id": "auto-306",
+   "question": "我们做的是一种套在耳温计探头上的PP套，用来隔离探头和检查对象，防止交叉感染。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 1619
+  },
+  {
+   "case_id": "auto-307",
+   "question": "我们做的是接在流量计和氧气管之间转接用的配件，用来传输空气或氧气。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 1435
+  },
+  {
+   "case_id": "auto-308",
+   "question": "我们做的是收集并传导病人呼出气体到呼气分析仪上的，想跟您确认一下注册要求。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 1908
+  },
+  {
+   "case_id": "auto-309",
+   "question": "我们做的是由塑料壳和金属片组成的配件，用来把香蕉叉样式的导联线固定到片式或扣式电极上。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": true,
+   "pair": [
+    "不单独作为医疗器械管理",
+    "Ⅰ类医疗器械"
+   ],
+   "issue": "检索条目[7]显示“电极导联线”按Ⅰ类管理，而同类的“心电转换夹”及“延伸电缆”等配件被判为不单独作为医疗器械管理，说明",
+   "ask": "该配件是否直接接触患者皮肤？",
+   "pred2": "不单独作为医疗器械管理",
+   "final": "不单独作为医疗器械管理",
+   "ms": 5731
+  },
+  {
+   "case_id": "auto-310",
+   "question": "我们做的是用电驱动高速旋转来钻孔磨削切除，还能反射光线帮导航定位的东西。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": true,
+   "pair": [
+    "不单独作为医疗器械管理",
+    "Ⅰ类"
+   ],
+   "issue": "条目[7]将“连接手术钻头与动力手柄、放置追踪球以辅助钻削并实现追踪定位”的类似产品按Ⅰ类管理，与本产品判为不单独作为医",
+   "ask": "是否接触人体或用于手术钻削？",
+   "pred2": "不单独作为医疗器械管理",
+   "final": "不单独作为医疗器械管理",
+   "ms": 5209
+  },
+  {
+   "case_id": "auto-311",
+   "question": "我们做的是配合特定根尖定位仪用的配件，用来测量口腔粘膜与根管间阻抗，确定根尖孔位置或根管长度。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 2686
+  },
+  {
+   "case_id": "auto-312",
+   "question": "我们做的是配合内窥镜用的几样小附件，手术中帮忙送水送气，术后用来预清洗内窥镜。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": true,
+   "pair": [
+    "不单独作为医疗器械管理",
+    "一类医疗器械"
+   ],
+   "issue": "检索条目[1][2]将同类内窥镜送水送气按钮/阀套装判为不单独作为医疗器械管理，但若产品含清洗按钮且术后用于预清洗内窥镜",
+   "ask": "产品含清洗按钮吗？",
+   "pred2": "不单独作为医疗器械管理",
+   "final": "不单独作为医疗器械管理",
+   "ms": 5014
+  },
+  {
+   "case_id": "auto-313",
+   "question": "我们做的是给DNA扩增提供反应环境的试剂，能用于常规、多重和荧光扩增。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 2161
+  },
+  {
+   "case_id": "auto-314",
+   "question": "我们做的是给血糖监测和胰岛素泵配套用的，帮它们获取皮下组织液里的葡萄糖浓度。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": true,
+   "pair": [
+    "不单独作为医疗器械管理",
+    "Ⅲ类医疗器械"
+   ],
+   "issue": "检索条目[1]将同类葡萄糖传感器套件判为“不单独作为医疗器械管理”，但其作为持续葡萄糖监测系统和胰岛素泵系统的组成部件，",
+   "ask": "该部件是否可独立于主机单独使用？",
+   "pred2": "不单独作为医疗器械管理",
+   "final": "不单独作为医疗器械管理",
+   "ms": 4986
+  },
+  {
+   "case_id": "auto-315",
+   "question": "我们做的是接高频电刀和中性电极、用来形成电流回路的东西，想请教一下这怎么管。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "不单独作为医疗器械管理"
+   ],
+   "issue": "该产品是连接高频电刀与中性电极形成电流回路的配件，而检索条目[4][6]显示类似的高频电刀专用连接导线/电缆被界定为不单",
+   "ask": "该配件是否带独立电气元件？",
+   "pred2": "不单独作为医疗器械管理",
+   "final": "不单独作为医疗器械管理",
+   "ms": 4794
+  },
+  {
+   "case_id": "auto-316",
+   "question": "我们做的是给生化仪电解质模块用的辅助溶液，用来监控电极电位。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 2121
+  },
+  {
+   "case_id": "auto-317",
+   "question": "我们做的是套在镜片上的PC筒，用来配合成像系统采集微循环并防止交叉感染。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 1560
+  },
+  {
+   "case_id": "auto-318",
+   "question": "我们做的是装在小孩呼吸管路上的一个部件，压力太大时能自动排气，用来控制管子里的压力。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 1848
+  },
+  {
+   "case_id": "auto-319",
+   "question": "我们做的这个垫子放在病人身上，用来固定身体并减少腹部、骨盆和颈部的图像伪影。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": true,
+   "pair": [
+    "不单独作为医疗器械管理",
+    "Ⅰ类医疗器械"
+   ],
+   "issue": "条目[9]将放射治疗过程中用于患者定位和固定的真空负压固定垫按Ⅰ类医疗器械管理，而该产品同样用于固定身体并减少成像伪影，",
+   "ask": "该垫是否直接接触放射治疗定位部位？",
+   "pred2": "不单独作为医疗器械管理",
+   "final": "不单独作为医疗器械管理",
+   "ms": 5690
+  },
+  {
+   "case_id": "auto-320",
+   "question": "我们做的是配合检测试剂和仪器用的，查尿液里抗原过剩情况的。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 2133
+  },
+  {
+   "case_id": "auto-321",
+   "question": "我们做的这个耗材配合洗肺机用，用来输送和抽吸肺部组织、液体。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": true,
+   "pair": [
+    "不单独作为医疗器械管理",
+    "Ⅱ类"
+   ],
+   "issue": "条目[9]吸痰管用于吸出气道分泌物按Ⅱ类管理，本产品同样涉及肺部液体抽吸输送，但条目[3]明确同类洗肺机配套耗材不单独作",
+   "ask": "是否接触人体血液循环系统？",
+   "pred2": "不单独作为医疗器械管理",
+   "final": "不单独作为医疗器械管理",
+   "ms": 5427
+  },
+  {
+   "case_id": "auto-322",
+   "question": "我们做的是手术后做磁共振时用来固定引流管路的，由一个底座和主体组成。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 2556
+  },
+  {
+   "case_id": "auto-323",
+   "question": "我们做的是配合胃肠检查电极用的保护套件，检查时保护电极。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 1906
+  },
+  {
+   "case_id": "auto-324",
+   "question": "我们做的是装在清洗管道口或送水接口上的橡胶帽，用来密封防止液体回流或空气吹入。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 3810
+  },
+  {
+   "case_id": "auto-325",
+   "question": "我们做的是32管核酸片段，用来查临床样本有没有交叉污染或弄混。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 3120
+  },
+  {
+   "case_id": "auto-326",
+   "question": "我们做的是装在全自动化学发光免疫分析仪里的软件，用来支持仪器完成检测。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2215
+  },
+  {
+   "case_id": "auto-327",
+   "question": "我们做的是配合肠镜胃镜用的，帮镜子送水送气的那几个阀和接头。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 2781
+  },
+  {
+   "case_id": "auto-328",
+   "question": "我们做的是一种粘贴材料，一面贴耳朵一面贴矫形器，用来帮矫形器固定。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 2790
+  },
+  {
+   "case_id": "auto-329",
+   "question": "我们做的是金属的，一头接洁牙手机用来喷砂粉，重复用，用前得自己灭菌。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": true,
+   "pair": [
+    "不单独作为医疗器械管理",
+    "Ⅰ类"
+   ],
+   "issue": "条目[2]的2023年分类界定中，同为喷砂洁牙机用喷嘴（虽为聚乙烯材质）也被判为不单独作为医疗器械管理，与你依据的201",
+   "ask": "该金属喷嘴是否作为医疗器械单独注册销售？",
+   "pred2": "不单独作为医疗器械管理",
+   "final": "不单独作为医疗器械管理",
+   "ms": 4660
+  },
+  {
+   "case_id": "auto-330",
+   "question": "我们做的这个一端接溢流保护器、一端接真空泵，就是给手术提供真空环境用的。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 2559
+  },
+  {
+   "case_id": "auto-331",
+   "question": "我们做的是配合神经监测仪在手术中向运行神经输出电刺激的探头手柄和导线。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 1921
+  },
+  {
+   "case_id": "auto-332",
+   "question": "我们做的是固定在X射线检查床脚端的左右腿部支架，能调高度宽度，用来支撑患者。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": true,
+   "pair": [
+    "不单独作为医疗器械管理",
+    "Ⅰ类"
+   ],
+   "issue": "条目[3]将手动调节的X射线摄影患者支撑装置归为Ⅰ类，而本产品同为手动调节、固定于X射线检查床用于支撑患者腿部，与\"不单",
+   "ask": "腿托是否接触患者皮肤？",
+   "pred2": "不单独作为医疗器械管理",
+   "final": "不单独作为医疗器械管理",
+   "ms": 5637
+  },
+  {
+   "case_id": "auto-333",
+   "question": "我们做的是卡在自家加热冷却装置上防污染、给溶液或冰沙加热制作提供无菌环境的一次性无菌盖布和圆盘。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 2607
+  },
+  {
+   "case_id": "auto-334",
+   "question": "我们做的这个主要是给人APOE基因检测样本做预处理、富集和纯化，处理后产物用于飞行时间质谱分析。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 1383
+  },
+  {
+   "case_id": "auto-335",
+   "question": "我们做的是把人基因组DNA切成合适长短的试剂，只负责片段化，不包含建库功能。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": true,
+   "pair": [
+    "不单独作为医疗器械管理",
+    "非医疗器械"
+   ],
+   "issue": "基因组DNA片段化试剂盒仅提供片段化酶切反应液、不含建库功能，如同检索到的非定值质控品等不配合专门检测试剂盒使用、不针对",
+   "ask": "该试剂盒是否与特定建库试剂盒配套使用？",
+   "pred2": "不单独作为医疗器械管理",
+   "final": "不单独作为医疗器械管理",
+   "ms": 5757
+  },
+  {
+   "case_id": "auto-336",
+   "question": "我们做的是分离血液样本里循环肿瘤细胞用的澄清溶液，配合自家试剂盒使用。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 2116
+  },
+  {
+   "case_id": "auto-337",
+   "question": "我们做的是装在X光机胸片架两侧的把手，帮患者做胸部检查时握着伸展身体。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 1863
+  },
+  {
+   "case_id": "auto-338",
+   "question": "我们做的是连接指定监测仪、用来传输病人颅内压数据的附件。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": true,
+   "pair": [
+    "不单独作为医疗器械管理",
+    "Ⅰ类"
+   ],
+   "issue": "同样作为连接监护仪与传感器、仅传输生理信号的专用附件（如心电导联线），分类界定为Ⅰ类医疗器械，与本产品“传输颅内压数据”",
+   "ask": "该附件是否接触脑组织或脑脊液？",
+   "pred2": "不单独作为医疗器械管理",
+   "final": "不单独作为医疗器械管理",
+   "ms": 4873
+  },
+  {
+   "case_id": "auto-339",
+   "question": "我们做的这个产品由酸性紫、柠檬酸和乙二醇组成，只配合尿蛋白和免疫固定检测试剂盒，用于电泳时给胶片里的蛋白染色。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 1999
+  },
+  {
+   "case_id": "auto-340",
+   "question": "我们做的是用在血液样本检测中配合洗脱的溶液，由甲醇、甲酸铵和甲酸组成。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": true,
+   "pair": [
+    "不单独作为医疗器械管理",
+    "不作为医疗器械管理"
+   ],
+   "issue": "检索条目[2]的液相色谱洗脱溶液A由超纯水、甲酸铵和甲酸组成，与本产品（甲醇、甲酸铵、甲酸）组成和预期用途高度相似，但本",
+   "ask": "该溶液是否直接参与血液样本前处理反应？",
+   "pred2": "不单独作为医疗器械管理",
+   "final": "不单独作为医疗器械管理",
+   "ms": 4720
+  },
+  {
+   "case_id": "auto-341",
+   "question": "我们做的是配合电动吻合器用在肺胃肠切除吻合上的器械，这用途该怎么报？",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 1517
+  },
+  {
+   "case_id": "auto-342",
+   "question": "我们做的是给人外周血做荧光PCR扩增提供反应环境用的，里面就是酶和配好的反应液。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": true,
+   "pair": [
+    "不单独作为医疗器械管理",
+    "Ⅲ类核酸扩增分析仪器"
+   ],
+   "issue": "检索条目中的Ⅲ类均为PCR仪器设备，而本产品是提供反应环境的酶与反应液试剂，不含仪器部件，与[7][8][9]的仪器类产",
+   "ask": "该试剂是否用于特定病原体检测？",
+   "pred2": "不单独作为医疗器械管理",
+   "final": "不单独作为医疗器械管理",
+   "ms": 3864
+  },
+  {
+   "case_id": "auto-343",
+   "question": "我们做的是配合冲击波设备用的无菌配件，把能量送到冠脉钙化处碎裂斑块。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": true,
+   "pair": [
+    "不单独作为医疗器械管理",
+    "Ⅲ类医疗器械"
+   ],
+   "issue": "条目[1]将同类冲击波冠脉球囊导管判为不单独作为医疗器械管理，但其配套的冲击波设备属有源手术器械，且条目[2][10]中",
+   "ask": "配件是否与冲击波设备同一注册单元？",
+   "pred2": "不单独作为医疗器械管理",
+   "final": "不单独作为医疗器械管理",
+   "ms": 5814
+  },
+  {
+   "case_id": "auto-344",
+   "question": "我们做的是用聚合物制成、带盖的桶，接在乳房活检系统上收集手术废液。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 2342
+  },
+  {
+   "case_id": "auto-345",
+   "question": "我们做的是把测压导管连到监护仪上，帮它把压力数据转换后显示出来。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 1619
+  },
+  {
+   "case_id": "auto-346",
+   "question": "我们做的是配合自家试剂盒用于循环肿瘤细胞检测反应体系清洗的盐溶液。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": true,
+   "pair": [
+    "不单独作为医疗器械管理",
+    "非医疗器械"
+   ],
+   "issue": "该盐溶液仅作为自家试剂盒的反应体系清洗液，本身不承担独立诊断功能，与试剂盒配套使用，按非医疗器械（配套试剂/耗材）管理也",
+   "ask": "该盐溶液是否单独取得医疗器械注册证？",
+   "pred2": "不单独作为医疗器械管理",
+   "final": "不单独作为医疗器械管理",
+   "ms": 4845
+  },
+  {
+   "case_id": "auto-347",
+   "question": "我们做的是套在激光光纤头上、帮固定照射距离并挡光保护眼睛的东西，这算哪类？",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": true,
+   "pair": [
+    "不单独作为医疗器械管理",
+    "Ⅱ类医疗器械（眼科矫治和防护器具-防护器"
+   ],
+   "issue": "该产品兼具固定激光照射距离和遮挡光束防护人眼的功能，而检索条目[2]中激光防护眼镜（防激光辐射伤眼）按Ⅱ类管理，条目[1",
+   "ask": "产品是否接触患者或仅限操作者防护？",
+   "pred2": "Ⅱ类医疗器械（眼科矫治和防护器具-防护器",
+   "final": "Ⅱ类医疗器械（眼科矫治和防护器具-防护器",
+   "ms": 5130
+  },
+  {
+   "case_id": "auto-348",
+   "question": "我们做的是开颅手术时配合导航系统建立通道，用来取脑组织活检或向颅内送药的器械。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 2456
+  },
+  {
+   "case_id": "auto-349",
+   "question": "我们做的是给核糖核酸逆转录提供反应环境的一套液体试剂。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 1570
+  },
+  {
+   "case_id": "auto-350",
+   "question": "我们做的是给核酸扩增提供反应环境用的试剂，想咨询一下这类产品怎么申报。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": true,
+   "pair": [
+    "不单独作为医疗器械管理",
+    "Ⅲ类医疗器械"
+   ],
+   "issue": "检索条目[1][3][4][9]显示核酸扩增分析仪器（为核酸扩增提供环境/与试剂配合使用）按Ⅲ类管理，与\"不单独作为医疗",
+   "ask": "该试剂是否与扩增仪共同构成封闭系统？",
+   "pred2": "不单独作为医疗器械管理",
+   "final": "不单独作为医疗器械管理",
+   "ms": 5075
+  },
+  {
+   "case_id": "auto-351",
+   "question": "我们做的是由超纯水、甲酸铵和甲酸组成的洗脱液，配合洗脱溶液B，用于血样在液相色谱仪中做检测。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 1517
+  },
+  {
+   "case_id": "auto-352",
+   "question": "我们做的是接在气腹机和气腹针之间，用来过滤气体里杂质的产品。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": true,
+   "pair": [
+    "不单独作为医疗器械管理",
+    "非医疗器械"
+   ],
+   "issue": "同类的气腹机用二氧化碳气体已判为非医疗器械，该过滤器仅过滤气体杂质、不宣称医疗作用，也可按非医疗器械管理",
+   "ask": "产品是否用于腹腔内窥镜手术？",
+   "pred2": "不单独作为医疗器械管理",
+   "final": "不单独作为医疗器械管理",
+   "ms": 3976
+  },
+  {
+   "case_id": "auto-353",
+   "question": "我们做的是配合皮试仪把药液渗进皮肤表面的耗材，想请教注册要求。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": true,
+   "pair": [
+    "不单独作为医疗器械管理",
+    "不单独作为医疗器械管理（按配套耗材随主设"
+   ],
+   "issue": "检索[1]直接对应一次性皮试仪电极布判为不单独作为医疗器械管理，但若产品被认定为将药物透皮导入的独立作用部件（如[2]医",
+   "ask": "该耗材是否直接产生透皮导入动力？",
+   "pred2": "不单独作为医疗器械管理",
+   "final": "不单独作为医疗器械管理",
+   "ms": 6306
+  },
+  {
+   "case_id": "auto-354",
+   "question": "我们做的是充气后放入阴道、辅助治疗尿失禁和阴道松弛的产品，想咨询注册要求。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": true,
+   "pair": [
+    "不单独作为医疗器械管理",
+    "Ⅱ类医疗器械"
+   ],
+   "issue": "检索条目[1]的阴道探头（充气后放入阴道、辅助治疗尿失禁与阴道松弛）被界定为不单独作为医疗器械管理，而条目[2]的医用女",
+   "ask": "是否有源医疗器械同类产品已获批？",
+   "pred2": "不单独作为医疗器械管理",
+   "final": "不单独作为医疗器械管理",
+   "ms": 4699
+  },
+  {
+   "case_id": "auto-355",
+   "question": "我们做的是接在眼科电凝设备上、连电凝器械用来导电的线。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 2436
+  },
+  {
+   "case_id": "auto-356",
+   "question": "我们做的是配合声音处理器把头固定在头上的非手术附件，想确认下这样申报行不行。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 1620
+  },
+  {
+   "case_id": "auto-357",
+   "question": "我们做的是配合输液泵打药前设置并传药物信息的软件，用途就是给药前把信息传进泵里。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2291
+  },
+  {
+   "case_id": "auto-358",
+   "question": "我们做的是配合引物探针和扩增仪，用于核酸样本数字PCR反应的东西。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "非医疗器械",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "非医疗器械",
+   "ms": 2166
+  },
+  {
+   "case_id": "auto-359",
+   "question": "我们做的是纸和薄膜做的套子，套在电子体温计上用，防止交叉感染。",
+   "gold": "不单独作为医疗器械管理",
+   "pred1": "不单独作为医疗器械管理",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "不单独作为医疗器械管理",
+   "ms": 2823
+  },
+  {
+   "case_id": "auto-360",
+   "question": "我们做的是粉末止血产品，用在浅表创面止血护理，成分不吸收，想问按哪类管？",
+   "gold": "视具体情况而定",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2705
+  },
+  {
+   "case_id": "auto-361",
+   "question": "我们做的是痔疮术后创面护理和肛门清洁洗护的产品，想咨询按什么管理。",
+   "gold": "视具体情况而定",
+   "pred1": "视具体情况而定",
+   "ambiguous": true,
+   "pair": [
+    "视具体情况而定",
+    "不作为医疗器械管理"
+   ],
+   "issue": "同一产品若仅用于痔疮患者及日常人群肛门清洁洗护（不涉及术后创面愈合），按条目[1]第（2）点应不作为医疗器械管理，与按第",
+   "ask": "产品是否明确用于痔疮术后创面？",
+   "pred2": "视具体情况而定",
+   "final": "视具体情况而定",
+   "ms": 4583
+  },
+  {
+   "case_id": "auto-362",
+   "question": "我们做的这款润滑产品，用于器械进腔道和避孕套润滑，想请教是否按医疗器械管理。",
+   "gold": "视具体情况而定",
+   "pred1": "视具体情况而定",
+   "ambiguous": true,
+   "pair": [
+    "视具体情况而定",
+    "第二类医疗器械"
+   ],
+   "issue": "同一产品既含“腔道内诊断器械检查时润滑”的预期用途（按Ⅱ类医疗器械管理，分类编码14-16），又含“避孕套使用前涂抹润滑",
+   "ask": "两种用途是同一包装使用还是分开使用？",
+   "pred2": "视具体情况而定",
+   "final": "视具体情况而定",
+   "ms": 4971
+  },
+  {
+   "case_id": "auto-363",
+   "question": "我们做的是抹在小伤口和擦伤上的护理产品，想咨询它算哪类管理。",
+   "gold": "视具体情况而定",
+   "pred1": "Ⅰ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅰ",
+    "Ⅱ类"
+   ],
+   "issue": "2022年目录将液体、膏状敷料（非无菌提供）管理类别由Ⅰ类调整为Ⅱ类，若产品按现行分类界定应归Ⅱ类，与Ⅰ类结论存在分歧。",
+   "ask": "产品是否以无菌状态提供？",
+   "pred2": "Ⅱ类",
+   "final": "Ⅱ类",
+   "ms": 4402
+  },
+  {
+   "case_id": "auto-364",
+   "question": "我们做的这个带拭子和运送管的无菌产品，用来收集运输储存临床样本，该分开申报吗？",
+   "gold": "视具体情况而定",
+   "pred1": "视具体情况而定",
+   "ambiguous": true,
+   "pair": [
+    "视具体情况而定",
+    "Ⅱ类"
+   ],
+   "issue": "条目[1]将同类拭子+运送培养基管组合的“运送培养基套装”判为视具体情况而定，而条目[2]将无菌样本采样拭子等判为Ⅱ类，",
+   "ask": "该产品是否用于微生物检测？",
+   "pred2": "视具体情况而定",
+   "final": "视具体情况而定",
+   "ms": 4945
+  },
+  {
+   "case_id": "auto-365",
+   "question": "我们做的是体表固定医用导管的一次性无菌产品，不接触创口，这算医疗器械吗？",
+   "gold": "视具体情况而定",
+   "pred1": "非医疗器械",
+   "ambiguous": true,
+   "pair": [
+    "非医疗器械",
+    "视具体情况而定"
+   ],
+   "issue": "2024年分类界定结果显示导管固定装置若接触创口按医疗器械管理、不接触创口则不作医疗器械管理，本产品虽不接触创口但为无菌",
+   "ask": "产品是否以无菌状态提供并标示无菌？",
+   "pred2": "视具体情况而定",
+   "final": "视具体情况而定",
+   "ms": 5823
+  },
+  {
+   "case_id": "auto-366",
+   "question": "我们做的是配合红光照射、辅助治疗牙周炎和种植体周围炎的产品。",
+   "gold": "视具体情况而定",
+   "pred1": "视具体情况而定",
+   "ambiguous": true,
+   "pair": [
+    "视具体情况而定",
+    "Ⅰ类"
+   ],
+   "issue": "条目[3]中用于牙周炎上药的一次性牙周给药器按Ⅰ类管理，若本产品被认定为不含光敏剂、仅起给药/冲洗辅助作用，则可能落入Ⅰ",
+   "ask": "产品接触牙周时是否含光敏剂？",
+   "pred2": "视具体情况而定",
+   "final": "视具体情况而定",
+   "ms": 5770
+  },
+  {
+   "case_id": "auto-367",
+   "question": "我们做的是无菌一次性护理产品，用来护理浅表创面，也缓解皮肤炎症引起的红斑瘙痒。",
+   "gold": "视具体情况而定",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅰ"
+   ],
+   "issue": "若产品主要通过形成保护层起物理屏障作用、用于浅表创面护理，部分同类液体成膜敷料被界定为Ⅰ类，与Ⅱ类界定存在分歧。",
+   "ask": "产品是否直接接触真皮层或进入血液循环？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 4727
+  },
+  {
+   "case_id": "auto-368",
+   "question": "我们做的是在家刷牙清洗牙齿、用手机拍口腔照片提示结石龋齿并供医生参考的东西。",
+   "gold": "视具体情况而定",
+   "pred1": "非医疗器械",
+   "ambiguous": true,
+   "pair": [
+    "非医疗器械",
+    "非医疗器械"
+   ],
+   "issue": "条目[2]对同类带摄像头电动牙刷记录为分类界定产品（未明确非医疗器械），而条目[1]将拍照提示龋齿结石归为非医疗器械、条",
+   "ask": "是否含电动牙刷等器械功能？",
+   "pred2": "非医疗器械",
+   "final": "非医疗器械",
+   "ms": 6338
+  },
+  {
+   "case_id": "auto-369",
+   "question": "我们做的是测全齿咬合压力、查咬合分布异常的产品，想咨询一下合规要求。",
+   "gold": "视具体情况而定",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 3659
+  },
+  {
+   "case_id": "auto-370",
+   "question": "我们做的是可吸收线，用于软组织缝合结扎，也能配合锚钉做骨与软组织固定，想咨询怎么管理。",
+   "gold": "视具体情况而定",
+   "pred1": "视具体情况而定",
+   "ambiguous": true,
+   "pair": [
+    "视具体情况而定",
+    "II类医疗器械"
+   ],
+   "issue": "若产品仅用于软组织缝合结扎则按II类管理（分类编码02-13），但配合锚钉做骨与软组织固定时可能归入III类运动损伤修复",
+   "ask": "该产品是否与锚钉组成同一注册单元？",
+   "pred2": "视具体情况而定",
+   "final": "视具体情况而定",
+   "ms": 5072
+  },
+  {
+   "case_id": "auto-371",
+   "question": "我们做的是配合球囊和视频系统，在输卵管疏通术中扩张输卵管内腔、恢复通畅性的可重复使用光学部件。",
+   "gold": "视具体情况而定",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2799
+  },
+  {
+   "case_id": "auto-372",
+   "question": "我们做的是把人体皮肤片放进去，用酶和液体把表皮细胞分开成单个活细胞，用来做后续检测。",
+   "gold": "视具体情况而定",
+   "pred1": "视具体情况而定",
+   "ambiguous": true,
+   "pair": [
+    "视具体情况而定",
+    "Ⅲ类医疗器械"
+   ],
+   "issue": "该产品用酶和液体将皮肤表皮细胞分离成单细胞悬液用于后续检测，条目[1]的类似产品涉及活细胞分离与维持细胞活性，但现有条目",
+   "ask": "后续检测是用于临床诊断还是仅科研？",
+   "pred2": "Ⅲ类医疗器械",
+   "final": "Ⅲ类医疗器械",
+   "ms": 6290
+  },
+  {
+   "case_id": "auto-373",
+   "question": "我们做的是喷鼻喷口的，用在浅表小伤口护理和缓解感冒鼻炎鼻塞流涕，这算器械吗？",
+   "gold": "视具体情况而定",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "非医疗器械"
+   ],
+   "issue": "含次氯酸的鼻腔喷剂用于鼻腔小创口等浅表性创面及周围皮肤的冲洗和护理，被界定为非医疗器械，与本品浅表小伤口护理用途相近，故",
+   "ask": "产品主要作用方式是物理冲洗还是药理杀菌？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 4804
+  },
+  {
+   "case_id": "auto-374",
+   "question": "我们做的是输液时插在端口上临时密封、防止漏液和污染的塞子，想咨询临床使用算不算医疗器械。",
+   "gold": "视具体情况而定",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 1730
+  },
+  {
+   "case_id": "auto-375",
+   "question": "我们做的这种密封帽用在输液瓶口防灰尘，算不算医疗器械？",
+   "gold": "视具体情况而定",
+   "pred1": "视具体情况而定",
+   "ambiguous": true,
+   "pair": [
+    "视具体情况而定",
+    "非医疗器械"
+   ],
+   "issue": "若密封帽仅用于科研中溶液储存端口密封或仅防灰尘不接触药液，则不作为医疗器械管理；若用于临床输液端口防污染则按第二类医疗器",
+   "ask": "该密封帽是否用于临床输液并接触药液？",
+   "pred2": "视具体情况而定",
+   "final": "视具体情况而定",
+   "ms": 6137
+  },
+  {
+   "case_id": "auto-376",
+   "question": "我们做的是给腔道检查器械和避孕套润滑用的，含玻尿酸那些成分，您看这算器械还是不算？",
+   "gold": "视具体情况而定",
+   "pred1": "视具体情况而定",
+   "ambiguous": true,
+   "pair": [
+    "视具体情况而定",
+    "不作为医疗器械管理"
+   ],
+   "issue": "若产品实际仅用于避孕套润滑或生殖器保湿减摩，按分类界定结果应不作为医疗器械管理，而用于腔道检查器械润滑时才按Ⅱ类器械管理",
+   "ask": "产品主要用途是避孕套还是腔道器械？",
+   "pred2": "视具体情况而定",
+   "final": "视具体情况而定",
+   "ms": 4389
+  },
+  {
+   "case_id": "auto-377",
+   "question": "我们做的是雾化或冲洗用的无菌液体，用来湿化痰液、缓解呼吸道干涩水肿。",
+   "gold": "视具体情况而定",
+   "pred1": "视具体情况而定",
+   "ambiguous": true,
+   "pair": [
+    "视具体情况而定",
+    "不作为医疗器械管理"
+   ],
+   "issue": "2024年分类界定中成分和用途相似的褐藻多糖雾化液被建议不作为医疗器械管理，而本品含冲洗、液体敷料等多项用途，是否属医疗",
+   "ask": "该产品主要作用方式是物理还是药理？",
+   "pred2": "视具体情况而定",
+   "final": "视具体情况而定",
+   "ms": 3965
+  },
+  {
+   "case_id": "auto-378",
+   "question": "我们做的这款涂在创面上起物理保护作用的产品，成分可吸收的话算哪类？",
+   "gold": "视具体情况而定",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅲ"
+   ],
+   "issue": "产品成分可被人体吸收，但条目[7]中可吸收胶原蛋白生物敷料为Ⅲ类，而条目[1][2]中不可吸收成分的创口贴为Ⅰ/Ⅱ类，若",
+   "ask": "该成分是否参与人体代谢并被吸收？",
+   "pred2": null,
+   "final": "Ⅲ",
+   "ms": 4874
+  },
+  {
+   "case_id": "auto-379",
+   "question": "我们做的是贴在完好皮肤上固定敷料、洗澡防水和防摩擦的产品，这算一类吗？",
+   "gold": "视具体情况而定",
+   "pred1": "视具体情况而定",
+   "ambiguous": true,
+   "pair": [
+    "视具体情况而定",
+    "不作为医疗器械管理"
+   ],
+   "issue": "条目[1]明确将洗澡防水、防完整皮肤污染、防摩擦等预期用途归为非医疗器械，与该产品描述高度吻合",
+   "ask": "产品是否含药物或其他活性成分？",
+   "pred2": "不作为医疗器械管理",
+   "final": "不作为医疗器械管理",
+   "ms": 4786
+  },
+  {
+   "case_id": "auto-380",
+   "question": "我们做的是用平板连摄像头看口腔、辅助医生做牙周清理的设备，这算不算医疗器械？",
+   "gold": "视具体情况而定",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 2996
+  },
+  {
+   "case_id": "auto-381",
+   "question": "我们做的是连接牙椅真空装置吸走舌苔细菌、清洁口腔治疗环境的一次性工具。",
+   "gold": "视具体情况而定",
+   "pred1": "视具体情况而定",
+   "ambiguous": true,
+   "pair": [
+    "视具体情况而定",
+    "第一类医疗器械"
+   ],
+   "issue": "条目[1]明确建议医疗机构中连接牙椅真空装置使用的情形按第一类管理（分类编码17-04），而条目[5][6]中配合治疗机",
+   "ask": "产品是否接触人体破损黏膜？",
+   "pred2": "第一类医疗器械",
+   "final": "第一类医疗器械",
+   "ms": 4650
+  },
+  {
+   "case_id": "auto-382",
+   "question": "我们做的是用在擦伤、切割伤这类小伤口及周围皮肤护理上、能形成保护层的东西，想请教怎么管理。",
+   "gold": "视具体情况而定",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 1863
+  },
+  {
+   "case_id": "auto-383",
+   "question": "我们做的是通过摄像头和屏幕放大看口腔、帮医生诊断治疗的产品，想咨询是否合规。",
+   "gold": "视具体情况而定",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅱ类或视具体情况而定"
+   ],
+   "issue": "条目[3][4]将仅具显示保存图像、作为诊断依据功能的口腔数字观察仪按Ⅱ类或“视具体情况而定”管理，而本题产品仅放大观察",
+   "ask": "产品是否有“诊断依据”的预期用途？",
+   "pred2": "Ⅱ类或视具体情况而定",
+   "final": "Ⅱ类或视具体情况而定",
+   "ms": 6113
+  },
+  {
+   "case_id": "auto-384",
+   "question": "我们做的是用于辅助中心静脉导管穿刺及护理时使用的一次性无菌产品。",
+   "gold": "视具体情况而定",
+   "pred1": "视具体情况而定",
+   "ambiguous": true,
+   "pair": [
+    "视具体情况而定",
+    "第二类医疗器械"
+   ],
+   "issue": "该产品为一次性无菌中心静脉导管辅助包，其中医用垫单、无菌敷料、手套、消毒棉球/棉签、纱布块、胶贴、导管固定装置等组件均为",
+   "ask": "该产品是否包含穿刺或置管器械？",
+   "pred2": "视具体情况而定",
+   "final": "视具体情况而定",
+   "ms": 4876
+  },
+  {
+   "case_id": "auto-385",
+   "question": "我们做的是用人牙加工成的骨填充材料，用于骨科、脑外科和口腔科的骨缺损修复，想咨询一下怎么管理。",
+   "gold": "视具体情况而定",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "Ⅱ类"
+   ],
+   "issue": "条目[2]对骨科、脑外科、口腔科骨缺损填充修复的骨基质填充材料，视具体情况按Ⅲ类13-05或13-11管理，但若产品经处",
+   "ask": "产品是否经过处理改变了原有结构？",
+   "pred2": "Ⅲ",
+   "final": "Ⅲ",
+   "ms": 4939
+  },
+  {
+   "case_id": "auto-386",
+   "question": "我们做的这个产品用在浅表创面、术后缝合和烧烫伤等非慢性创面护理上，想咨询一下怎么管理。",
+   "gold": "视具体情况而定",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "非医疗器械"
+   ],
+   "issue": "若产品主要通过保湿作用缓解皮肤炎症、干燥脱屑等症状且不接触创面，则可按非医疗器械管理。",
+   "ask": "产品是否直接接触浅表创面？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 4629
+  },
+  {
+   "case_id": "auto-387",
+   "question": "我们做的是脚踏真空泵加软管，用来抽密封容器里的空气获得真空，这算医疗器械吗？",
+   "gold": "视具体情况而定",
+   "pred1": "视具体情况而定",
+   "ambiguous": true,
+   "pair": [
+    "视具体情况而定",
+    "不作为医疗器械管理"
+   ],
+   "issue": "若产品仅用于抽除骨水泥散发出的刺激气味等无治疗预防功能的用途，则不符合医疗器械定义，不作为医疗器械管理；而若用于减少骨水",
+   "ask": "产品是否用于抽除骨水泥气味？",
+   "pred2": "视具体情况而定",
+   "final": "视具体情况而定",
+   "ms": 5232
+  },
+  {
+   "case_id": "auto-388",
+   "question": "我们做的这个产品是抹在植发后伤口上起保护作用的，里面的胶原蛋白到底吸不吸收，您看怎么定？",
+   "gold": "视具体情况而定",
+   "pred1": "视具体情况而定",
+   "ambiguous": true,
+   "pair": [
+    "视具体情况而定",
+    "第二类医疗器械"
+   ],
+   "issue": "检索条目中同类产品均以胶原蛋白是否可被人体吸收作为分类关键，若本品胶原蛋白不可吸收则按第二类管理，若可吸收则按第三类管理",
+   "ask": "该胶原蛋白在体内是否可被降解吸收？",
+   "pred2": "视具体情况而定",
+   "final": "视具体情况而定",
+   "ms": 4461
+  },
+  {
+   "case_id": "auto-389",
+   "question": "我们做的是把手术中的碎骨或牙齿研磨成骨粉、消毒后回植给患者用的设备。",
+   "gold": "视具体情况而定",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅰ"
+   ],
+   "issue": "条目[3]将无源的口腔用骨粉制备设备（牙科骨磨，由研磨头和研磨腔组成）列为Ⅰ类，而本产品为有源电动设备，条目[6][7]",
+   "ask": "设备是否具备粉碎后自动消毒功能？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 5037
+  },
+  {
+   "case_id": "auto-390",
+   "question": "我们做的是涂在浅表小伤口上形成保护膜、用来护理创面和周围皮肤的那种产品。",
+   "gold": "视具体情况而定",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 3204
+  },
+  {
+   "case_id": "auto-391",
+   "question": "我们做的这种胶原蛋白敷料用于浅表创面等术后护理，能被人体吸收的话算几类？",
+   "gold": "视具体情况而定",
+   "pred1": "Ⅲ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅲ",
+   "ms": 2623
+  },
+  {
+   "case_id": "auto-392",
+   "question": "我们做的是涂在激光换肤创面和过敏皮肤上起保护作用的产品，想咨询怎么管理。",
+   "gold": "视具体情况而定",
+   "pred1": "视具体情况而定",
+   "ambiguous": true,
+   "pair": [
+    "视具体情况而定",
+    "不作为医疗器械管理"
+   ],
+   "issue": "若产品仅通过保湿作用保护完整皮肤、缓解过敏皮肤炎症症状而不涉及创面护理，则可按非医疗器械管理，与创面护理按医疗器械管理的",
+   "ask": "产品是否用于激光换肤等破损创面？",
+   "pred2": "视具体情况而定",
+   "final": "视具体情况而定",
+   "ms": 5827
+  },
+  {
+   "case_id": "auto-393",
+   "question": "我们做的这款滴眼液既能润湿镜片，又能日常缓解眼干疲劳，到底算不算医疗器械？",
+   "gold": "视具体情况而定",
+   "pred1": "视具体情况而定",
+   "ambiguous": true,
+   "pair": [
+    "视具体情况而定",
+    "非医疗器械"
+   ],
+   "issue": "该产品若仅用于日常缓解眼干疲劳、润湿镜片，按既往分类界定可归为非医疗器械；但若声称用于接触镜湿润处理并滴入眼内起润滑作用",
+   "ask": "产品是否声称滴入眼内起润滑作用？",
+   "pred2": "视具体情况而定",
+   "final": "视具体情况而定",
+   "ms": 4791
+  },
+  {
+   "case_id": "auto-394",
+   "question": "我们做的是涂在浅表创面上护理、促进愈合的，同时也能缓解皮肤干燥脱屑瘙痒，这样申报行不行？",
+   "gold": "视具体情况而定",
+   "pred1": "视具体情况而定",
+   "ambiguous": true,
+   "pair": [
+    "视具体情况而定",
+    "不作为医疗器械管理"
+   ],
+   "issue": "同一产品描述中“浅表创面护理促愈合”对应第二类医疗器械，而“缓解干燥脱屑瘙痒”若通过保湿水合发挥作用则不作為医疗器械管理",
+   "ask": "缓解干燥是否仅靠保湿水合？",
+   "pred2": "视具体情况而定",
+   "final": "视具体情况而定",
+   "ms": 3617
+  },
+  {
+   "case_id": "auto-395",
+   "question": "我们做的是涂在私处和避孕套上保湿减摩擦、也用于器械入阴润滑的产品，想请教怎么管理。",
+   "gold": "视具体情况而定",
+   "pred1": "视具体情况而定",
+   "ambiguous": true,
+   "pair": [
+    "视具体情况而定",
+    "药械组合"
+   ],
+   "issue": "若产品含透明质酸钠、乳酸等成分并宣称调节阴道pH值或辅助避孕等药理/避孕作用，可能被界定为药械组合而非仅按用途分情形管理",
+   "ask": "产品是否明确宣称调节pH或避孕？",
+   "pred2": "视具体情况而定",
+   "final": "视具体情况而定",
+   "ms": 4484
+  },
+  {
+   "case_id": "auto-396",
+   "question": "我们做的这种贴片能用于小伤口包扎和肚脐破皮护理，请问该怎么管？",
+   "gold": "视具体情况而定",
+   "pred1": "视具体情况而定",
+   "ambiguous": true,
+   "pair": [
+    "视具体情况而定",
+    "第一类医疗器械"
+   ],
+   "issue": "同一产品若仅按小创口急救临时包扎用途可归为第一类，但用于肚脐破皮创口护理时按第二类管理，用途不同导致类别分歧。",
+   "ask": "该产品是否用于肚脐破皮创口？",
+   "pred2": "第一类医疗器械",
+   "final": "第一类医疗器械",
+   "ms": 6217
+  },
+  {
+   "case_id": "auto-397",
+   "question": "我们做的是打脖子皱纹的，打之前把针管里的凝胶推到药瓶里混匀再抽出来注射。",
+   "gold": "视具体情况而定",
+   "pred1": "Ⅲ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅲ",
+    "药械组合"
+   ],
+   "issue": "该产品为凝胶与药瓶内溶液混合后注射，若混合组分含发挥药理作用的成分（如检索中透明质酸钠复合溶液因成分未证明无药理作用被判",
+   "ask": "混合后的凝胶起物理填充还是药理作用？",
+   "pred2": "药械组合",
+   "final": "药械组合",
+   "ms": 5150
+  },
+  {
+   "case_id": "auto-398",
+   "question": "我们做的鼻腔清洗液含海盐和杀菌成分，用于鼻炎患者清洗鼻腔，想咨询按什么管理。",
+   "gold": "视具体情况而定",
+   "pred1": "药械组合",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "药械组合",
+   "ms": 1445
+  },
+  {
+   "case_id": "auto-399",
+   "question": "我们做的这种术后缝合和浅表创面护理产品，里面的胶原蛋白到底算不算能被人体吸收？",
+   "gold": "视具体情况而定",
+   "pred1": "视具体情况而定",
+   "ambiguous": true,
+   "pair": [
+    "视具体情况而定",
+    "第二类"
+   ],
+   "issue": "同一产品描述下，若胶原蛋白不可被人体吸收则按第二类管理，可被吸收则按第三类，而检索条目未明确该产品胶原蛋白是否可吸收。",
+   "ask": "该产品胶原蛋白可被人体吸收吗？",
+   "pred2": "视具体情况而定",
+   "final": "视具体情况而定",
+   "ms": 4596
+  },
+  {
+   "case_id": "auto-400",
+   "question": "我们做的是贴眼部防暴露性角膜炎和缓解干涩的无菌敷料，想咨询分类。",
+   "gold": "视具体情况而定",
+   "pred1": "Ⅱ",
+   "ambiguous": false,
+   "pair": null,
+   "issue": null,
+   "ask": null,
+   "pred2": null,
+   "final": "Ⅱ",
+   "ms": 3174
+  },
+  {
+   "case_id": "auto-401",
+   "question": "我们做的是用3D打印材料，用来打印治颞下颌关节紊乱的咬合板和牙钻导板。",
+   "gold": "视具体情况而定",
+   "pred1": "视具体情况而定",
+   "ambiguous": true,
+   "pair": [
+    "视具体情况而定",
+    "不作为医疗器械管理"
+   ],
+   "issue": "条目[1]将同一3D打印材料按最终打印用途拆分判定，打印咬合板/咬合夹板按二类管理，而打印牙钻导板或试戴模型不作为医疗器",
+   "ask": "打印后的产品是咬合板还是牙钻导板？",
+   "pred2": "视具体情况而定",
+   "final": "视具体情况而定",
+   "ms": 4845
+  },
+  {
+   "case_id": "auto-402",
+   "question": "我们做的是术后包扎固定用的腹带，还想用于产妇产后子宫恢复，这算器械吗？",
+   "gold": "视具体情况而定",
+   "pred1": "视具体情况而定",
+   "ambiguous": true,
+   "pair": [
+    "视具体情况而定",
+    "第一类医疗器械"
+   ],
+   "issue": "若产品仅用于术后腹部加压包扎固定、不接触创面，可按第一类医疗器械管理；但若宣称用于产后子宫恢复，则可能不作为医疗器械管理",
+   "ask": "产品是否宣称用于产后子宫恢复？",
+   "pred2": "视具体情况而定",
+   "final": "视具体情况而定",
+   "ms": 5011
+  },
+  {
+   "case_id": "auto-403",
+   "question": "我们做的是涂在伤口表面起保护作用的产品，用于小创口、擦伤和微整形等非慢性创面护理。",
+   "gold": "视具体情况而定",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "非医疗器械"
+   ],
+   "issue": "条目[3]中用于创伤后新痊愈皮肤后继治疗、防止留疤的保湿霜被归为非医疗器械，而本产品仅物理屏障护理非慢性创面，若按保湿护",
+   "ask": "产品是否含药物或活性成分？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 4574
+  },
+  {
+   "case_id": "auto-404",
+   "question": "我们做的是喷在伤口上形成保护膜、帮非慢性创面愈合的无菌产品。",
+   "gold": "视具体情况而定",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅰ类"
+   ],
+   "issue": "条目[9]创口贴用于浅表性创面急救及临时性包扎按Ⅰ类管理，而本品喷膜后形成保护层护理非慢性创面，若界定为仅物理屏障、不参",
+   "ask": "喷膜最终会被人体吸收或降解吗？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 3823
+  },
+  {
+   "case_id": "auto-405",
+   "question": "我们做的这款胶原蛋白敷料，用于浅表创面和术后创面护理，请问按哪类管理？",
+   "gold": "视具体情况而定",
+   "pred1": "视具体情况而定",
+   "ambiguous": true,
+   "pair": [
+    "视具体情况而定",
+    "第二类"
+   ],
+   "issue": "若产品所含重组胶原蛋白不可被人体吸收，同类条目建议按第二类医疗器械管理（分类编码14-10）；若可被人体吸收则按第三类，",
+   "ask": "产品所含重组胶原蛋白可被人体吸收吗？",
+   "pred2": "视具体情况而定",
+   "final": "视具体情况而定",
+   "ms": 4856
+  },
+  {
+   "case_id": "auto-406",
+   "question": "我们做的是配合手机软件查视力的小设备，用于医疗机构筛查和日常视力变化监测。",
+   "gold": "视具体情况而定",
+   "pred1": "Ⅱ",
+   "ambiguous": true,
+   "pair": [
+    "Ⅱ",
+    "Ⅰ类"
+   ],
+   "issue": "条目[3]指出若产品仅用于监测受测人视力变化且检测结果不可作为医生诊断的临床依据或验光依据，则按不作医疗器械管理；若产品",
+   "ask": "设备结果能否用于医生诊断或验光？",
+   "pred2": "Ⅱ",
+   "final": "Ⅱ",
+   "ms": 4503
+  },
+  {
+   "case_id": "auto-407",
+   "question": "我们做的是能让人自己测视力、自动出结果的东西，想用在医院学校和公共场所，这算医疗器械吗？",
+   "gold": "视具体情况而定",
+   "pred1": "视具体情况而定",
+   "ambiguous": true,
+   "pair": [
+    "视具体情况而定",
+    "非医疗器械"
+   ],
+   "issue": "若产品仅用于学校、公共场所自助筛查且结果明确不作为医生诊断或验光依据，按条目[1][7]可不作医疗器械管理",
+   "ask": "医院里使用是否用于诊断或验光依据？",
+   "pred2": "视具体情况而定",
+   "final": "视具体情况而定",
+   "ms": 3737
+  }
+ ]
+}

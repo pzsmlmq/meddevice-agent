@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://nexent.local/contracts/eval.schema.json",
+  "title": "评测样本",
+  "description": "一条评测题目。200 条构成评测集，用来跑 v0 / v1 / v2 三轮对照。铁律：同一个 category_l2_id 不许同时出现在两个 split 里，否则准确率虚高，答辩现场换题一测就露。",
+
+  "type": "object",
+  "required": ["case_id", "question", "gold_answer", "split", "category_l2_id"],
+  "additionalProperties": false,
+
+  "properties": {
+    "case_id": {
+      "type": "string",
+      "pattern": "^eval-[0-9]{3,4}$",
+      "description": "题目编号，格式 eval-001。不要重排，重排会打断历史对比。"
+    },
+
+    "question": {
+      "type": "string",
+      "minLength": 4,
+      "description": "问题。要像真人问的，不要写成「请判断以下产品的管理类别」。真实问法是「这东西要注册吗」，评测才有效。"
+    },
+
+    "gold_answer": {
+      "type": "string",
+      "minLength": 1,
+      "description": "金标准答案。一句话给结论，不要带推理过程。"
+    },
+
+    "gold_class": {
+      "type": ["string", "null"],
+      "enum": ["Ⅰ", "Ⅱ", "Ⅲ", "非医疗器械", "药械组合", "不单独作为医疗器械管理", "视具体情况而定", null],
+      "description": "金标准的管理类别。只有 classification 类型的题需要填，其它类型填 null。算 Macro-F1 用这个字段。"
+    },
+
+    "evidence": {
+      "type": ["object", "null"],
+      "description": "金标准答案的依据出处。没有出处的题目不许进评测集，因为无法判断模型引用的对不对。",
+      "additionalProperties": false,
+      "properties": {
+        "doc": {
+          "type": "string",
+          "description": "官方文件名。"
+        },
+        "clause": {
+          "type": "string",
+          "description": "条款编号或条目定位。"
+        }
+      }
+    },
+
+    "split": {
+      "type": "string",
+      "enum": ["train", "test", "feedback"],
+      "description": "属于哪个集合。train=给主动学习用；test=只用于最终评测，全程不许看；feedback=模拟用户反馈，用于验证进化效果。三者互斥。"
+    },
+
+    "category_l2_id": {
+      "type": "string",
+      "description": "本题涉及的二级产品类别 id。这是防泄漏的关键字段——校验器会检查同一个 id 有没有跨 split 出现。"
+    },
+
+    "difficulty": {
+      "type": "string",
+      "enum": ["easy", "medium", "hard"],
+      "description": "难度标记。easy=目录里能直接查到；medium=需要看预期用途；hard=分类界定记录，需要推断。统计时分层报告，只说总体准确率会被质疑。",
+      "default": "medium"
+    },
+
+    "notes": {
+      "type": ["string", "null"],
+      "description": "出题备注。为什么选这道、容易错在哪，留给写文档时用。"
+    }
+  }
+}

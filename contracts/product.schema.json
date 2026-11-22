@@ -1,0 +1,110 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://nexent.local/contracts/product.schema.json",
+  "title": "产品记录（清洗后）",
+  "description": "一条来自《医疗器械分类目录》或历年分类界定结果的产品记录。这是管线 02_clean 的输出格式，也是 03_extract 的输入格式。管线上下游只认这个结构，改字段必须升版本号。",
+
+  "type": "object",
+  "required": [
+    "record_id",
+    "source_table",
+    "catalog",
+    "category_l2",
+    "class_level",
+    "origin",
+    "confidence"
+  ],
+  "additionalProperties": false,
+
+  "properties": {
+    "record_id": {
+      "type": "string",
+      "pattern": "^(catalog|definition|adjustment)-[0-9]{4,6}$",
+      "description": "记录唯一标识。格式：来源表-四位序号，例如 catalog-0001、definition-0137。用来做追溯，别用行号，行号会变。"
+    },
+
+    "source_table": {
+      "type": "string",
+      "enum": ["catalog", "definition", "adjustment"],
+      "description": "这条记录来自哪张表。catalog=主分类目录；definition=历年分类界定结果；adjustment=分类调整公告。"
+    },
+
+    "catalog": {
+      "type": "string",
+      "minLength": 2,
+      "description": "子目录名称，第一层分类。例如「01有源手术器械」。共 33 个。"
+    },
+
+    "category_l1": {
+      "type": ["string", "null"],
+      "description": "一级产品类别，第二层。例如「手术器械-夹」。允许为空，因为分类界定记录可能没有这个层级，需要从产品描述反推。"
+    },
+
+    "category_l2": {
+      "type": "string",
+      "minLength": 2,
+      "description": "二级产品类别，第三层，也是最关键的一层。归类判定的目标就是这一层。共 1164 个。"
+    },
+
+    "product_desc": {
+      "type": ["string", "null"],
+      "description": "产品描述，来自原文。包含组成、结构、材料等信息，是 LLM 抽取属性的主要输入。"
+    },
+
+    "intended_use": {
+      "type": ["string", "null"],
+      "description": "预期用途，来自原文。决定管理类别的关键信息，多跳推理的第一跳要从这里走。"
+    },
+
+    "name_examples": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "品名举例。原文里用顿号分隔的多个品名要拆成数组，一条记录可能有 0 到多个。",
+      "default": []
+    },
+
+    "class_level": {
+      "type": "string",
+      "enum": ["Ⅰ", "Ⅱ", "Ⅲ", "非医疗器械", "药械组合", "不单独作为医疗器械管理", "视具体情况而定", "待定"],
+      "description": "管理类别，归一化之后的值。Ⅰ/Ⅱ/Ⅲ 是罗马数字统一码，不是英文字母 I/II/III。后四种是判定结论本身，不是脏数据，必须保留。待定=pending，表示层级补全失败需要人工处理。"
+    },
+
+    "class_level_raw": {
+      "type": ["string", "null"],
+      "description": "归一化之前的原始值。保留它是因为证据链要能回指原文，显示的时候给用户看的是原文不是归一值。"
+    },
+
+    "source_clause": {
+      "type": ["string", "null"],
+      "description": "法规出处，来自原文的「法规文本链接」列。例如「2018年医疗器械产品分类界定结果汇总-按照Ⅱ类医疗器械管理的产品第74条」。这是证据链的根，不能丢。"
+    },
+
+    "source_doc": {
+      "type": ["string", "null"],
+      "description": "出处所属的官方文件名。例如「2017年第104号公告」。文档引用要用官方名，不用汇编名。"
+    },
+
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "这条记录的可信度。规则直接生成=1.0；LLM 三次采样全一致=0.9，两次=0.6，全不同=0.3；人工审定=1.0。这个数字直接喂给主动学习的采样打分。"
+    },
+
+    "origin": {
+      "type": "string",
+      "enum": ["rule", "llm", "human"],
+      "description": "这条记录怎么来的。rule=规则生成，llm=模型抽取，human=人工审核后确认或修正。三种来源在答辩时要分开统计，因为可解释性不同。"
+    },
+
+    "pending": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["category_l1", "category_l2", "class_level", "source_clause"]
+      },
+      "description": "待补字段清单。哪些字段没填上、需要人工介入，列在这里，不要用空字符串蒙混。",
+      "default": []
+    }
+  }
+}
